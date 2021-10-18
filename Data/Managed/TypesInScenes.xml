@@ -42,9 +42,6 @@
 		<type fullname="CameraZoomState" preserve="nothing"/>
 		<type fullname="ExitScene" preserve="nothing"/>
 	</assembly>
-	<assembly fullname="Unity.Postprocessing.Runtime">
-		<type fullname="UnityEngine.Rendering.PostProcessing.PostProcessResources" preserve="nothing"/>
-	</assembly>
 	<assembly fullname="Unity.RenderPipelines.Core.Runtime">
 		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerBitField" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerButton" preserve="nothing"/>
@@ -73,6 +70,10 @@
 		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerVector4" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.UI.UIFoldout" preserve="nothing"/>
 	</assembly>
+	<assembly fullname="Unity.RenderPipelines.Universal.Runtime">
+		<type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalLightData" preserve="nothing"/>
+	</assembly>
 	<assembly fullname="Unity.TextMeshPro">
 		<type fullname="TMPro.TMP_FontAsset" preserve="nothing"/>
 		<type fullname="TMPro.TMP_Settings" preserve="nothing"/>
@@ -94,6 +95,7 @@
 		<type fullname="UnityEngine.UI.Image" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.LayoutElement" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Mask" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.RawImage" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.ScrollRect" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Scrollbar" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Text" preserve="nothing"/>

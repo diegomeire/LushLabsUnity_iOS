@@ -339,8 +339,6 @@ struct EventHandler_t084491E53EC706ACA0A15CA17488C075B4ECA44B;
 struct EventWaitHandle_t80CDEB33529EF7549E7D3E3B689D8272B9F37F3C;
 // System.Exception
 struct Exception_t;
-// System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute
-struct ExcludeFromCodeCoverageAttribute_tFEDA2165DC4920539BEB2F72C8A78D10BB6F9CA0;
 // System.Text.RegularExpressions.ExclusiveReference
 struct ExclusiveReference_t7F4A5D2416EA34710F520BAD225E61BC1E98D1D8;
 // System.Threading.ExecutionContext
@@ -4922,15 +4920,6 @@ struct Enum_t23B90B40F60E677A8025267341651C94AE079CDA_marshaled_pinvoke
 struct Enum_t23B90B40F60E677A8025267341651C94AE079CDA_marshaled_com
 {
 };
-
-// System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute
-struct ExcludeFromCodeCoverageAttribute_tFEDA2165DC4920539BEB2F72C8A78D10BB6F9CA0  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
-{
-public:
-
-public:
-};
-
 
 // System.Runtime.InteropServices.GCHandle
 struct GCHandle_t757890BC4BBBEDE5A623A3C110013EDD24613603 
@@ -18483,22 +18472,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NotImplementedException_t26260C4EE0444C5FA022
 		NotImplementedException_t26260C4EE0444C5FA022994203060B3A42A3ADE6 * L_1 = (NotImplementedException_t26260C4EE0444C5FA022994203060B3A42A3ADE6 *)il2cpp_codegen_object_new(NotImplementedException_t26260C4EE0444C5FA022994203060B3A42A3ADE6_il2cpp_TypeInfo_var);
 		NotImplementedException__ctor_m8A9AA4499614A5BC57DD21713D0720630C130AEB(L_1, L_0, /*hidden argument*/NULL);
 		return L_1;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExcludeFromCodeCoverageAttribute__ctor_mC4864A7299B691B672E31F543BEFD61DEB7C2832 (ExcludeFromCodeCoverageAttribute_tFEDA2165DC4920539BEB2F72C8A78D10BB6F9CA0 * __this, const RuntimeMethod* method)
-{
-	{
-		Attribute__ctor_m5C1862A7DFC2C25A4797A8C5F681FBB5CB53ECE1(__this, /*hidden argument*/NULL);
-		return;
 	}
 }
 #ifdef __clang__

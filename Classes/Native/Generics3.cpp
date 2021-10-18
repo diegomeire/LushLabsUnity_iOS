@@ -155,8 +155,6 @@ struct AsyncOperationBase_1_t77B00BFC3586344473A296EB5124C9489A85AE23;
 struct AsyncOperationBase_1_t115D039450A94B5E285CE91C166928D02353604A;
 // System.Lazy`1/Boxed<System.Object>
 struct Boxed_t6B46E863EF1370F1DB18721371AF2515E1DF857B;
-// System.Dynamic.Utils.CacheDict`2<System.Object,System.Object>
-struct CacheDict_2_t4D7FFB59CB1E33398FCBBDC6A739780EC97F3F14;
 // UnityEngine.Events.CachedInvokableCall`1<System.Boolean>
 struct CachedInvokableCall_1_t39B390863EE040B7E93C5703E7C7C28BF94F3F4B;
 // UnityEngine.Events.CachedInvokableCall`1<System.Int32>
@@ -273,8 +271,6 @@ struct Dictionary_2_t1B2F62A5CB01E356B3C3FDEBB20B967EE7C405C9;
 struct Dictionary_2_tB758E2A2593CD827EFC041BE1F1BB4B68DE1C3E8;
 // System.Collections.Generic.Dictionary`2<System.Type,System.Type>
 struct Dictionary_2_tDDE97F4B1F5CCF200FCAA220F329933EA034D506;
-// System.Dynamic.Utils.CacheDict`2/Entry<System.Object,System.Object>
-struct Entry_tC63F6A8EFD95F594FC61BC13171B112D9B69F894;
 // System.Func`1<System.Threading.Tasks.Task/ContingentProperties>
 struct Func_1_tBCF42601FA307876E83080BE4204110820F8BF3B;
 // System.Func`2<System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Int64>>,System.Collections.Generic.LinkedListNode`1<System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Int64>>>>
@@ -387,8 +383,6 @@ struct UnityAction_1_t5CF46572372725E6225588C466A7AF5C8597AA79;
 struct UnityAction_1_t00EE92422CBB066CEAB95CDDBF901E2967EC7B1A;
 // UnityEngine.Events.UnityAction`1<System.Single>
 struct UnityAction_1_t50101DC7058B3235A520FF57E827D51694843FBB;
-// System.Dynamic.Utils.CacheDict`2/Entry<System.Object,System.Object>[]
-struct EntryU5BU5D_t0AE7C45A2660073FABAEA78B10276AEF0D51E8A8;
 // System.Collections.Generic.HashSet`1/Slot<System.Object>[]
 struct SlotU5BU5D_tA2C59549601B8D4FF421D3FE4AE207703AADA494;
 // System.Threading.Tasks.Task`1<System.Int32>[]
@@ -627,7 +621,6 @@ struct Delegate_t_marshaled_pinvoke;
 struct Exception_t_marshaled_com;
 struct Exception_t_marshaled_pinvoke;
 
-struct EntryU5BU5D_t0AE7C45A2660073FABAEA78B10276AEF0D51E8A8;
 struct Task_1U5BU5D_t001B55EF71A9B25B6D6F6CC92FD85F786ED08656;
 struct ColorU5BU5D_t358DD89F511301E663AD9157305B94A2DEFF8834;
 struct DiagnosticEventU5BU5D_t8A0E73EA0C5ACBAD0D5597DF73052C767E098875;
@@ -894,35 +887,6 @@ public:
 	{
 		___m_value_0 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___m_value_0), (void*)value);
-	}
-};
-
-
-// System.Dynamic.Utils.CacheDict`2<System.Object,System.Object>
-struct CacheDict_2_t4D7FFB59CB1E33398FCBBDC6A739780EC97F3F14  : public RuntimeObject
-{
-public:
-	// System.Int32 System.Dynamic.Utils.CacheDict`2::_mask
-	int32_t ____mask_0;
-	// System.Dynamic.Utils.CacheDict`2/Entry<TKey,TValue>[] System.Dynamic.Utils.CacheDict`2::_entries
-	EntryU5BU5D_t0AE7C45A2660073FABAEA78B10276AEF0D51E8A8* ____entries_1;
-
-public:
-	inline static int32_t get_offset_of__mask_0() { return static_cast<int32_t>(offsetof(CacheDict_2_t4D7FFB59CB1E33398FCBBDC6A739780EC97F3F14, ____mask_0)); }
-	inline int32_t get__mask_0() const { return ____mask_0; }
-	inline int32_t* get_address_of__mask_0() { return &____mask_0; }
-	inline void set__mask_0(int32_t value)
-	{
-		____mask_0 = value;
-	}
-
-	inline static int32_t get_offset_of__entries_1() { return static_cast<int32_t>(offsetof(CacheDict_2_t4D7FFB59CB1E33398FCBBDC6A739780EC97F3F14, ____entries_1)); }
-	inline EntryU5BU5D_t0AE7C45A2660073FABAEA78B10276AEF0D51E8A8* get__entries_1() const { return ____entries_1; }
-	inline EntryU5BU5D_t0AE7C45A2660073FABAEA78B10276AEF0D51E8A8** get_address_of__entries_1() { return &____entries_1; }
-	inline void set__entries_1(EntryU5BU5D_t0AE7C45A2660073FABAEA78B10276AEF0D51E8A8* value)
-	{
-		____entries_1 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____entries_1), (void*)value);
 	}
 };
 
@@ -2167,15 +2131,6 @@ public:
 	{
 		___m_invoking_3 = value;
 	}
-};
-
-
-// System.Dynamic.Utils.CacheDict`2/Entry<System.Object,System.Object>
-struct Entry_tC63F6A8EFD95F594FC61BC13171B112D9B69F894  : public RuntimeObject
-{
-public:
-
-public:
 };
 
 
@@ -10533,43 +10488,6 @@ public:
 	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  value)
 	{
 		m_Items[index] = value;
-	}
-};
-// System.Dynamic.Utils.CacheDict`2/Entry<System.Object,System.Object>[]
-struct EntryU5BU5D_t0AE7C45A2660073FABAEA78B10276AEF0D51E8A8  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) Entry_tC63F6A8EFD95F594FC61BC13171B112D9B69F894 * m_Items[1];
-
-public:
-	inline Entry_tC63F6A8EFD95F594FC61BC13171B112D9B69F894 * GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline Entry_tC63F6A8EFD95F594FC61BC13171B112D9B69F894 ** GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, Entry_tC63F6A8EFD95F594FC61BC13171B112D9B69F894 * value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
-	}
-	inline Entry_tC63F6A8EFD95F594FC61BC13171B112D9B69F894 * GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline Entry_tC63F6A8EFD95F594FC61BC13171B112D9B69F894 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, Entry_tC63F6A8EFD95F594FC61BC13171B112D9B69F894 * value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
 	}
 };
 // System.String[]
@@ -24924,60 +24842,6 @@ IL2CPP_EXTERN_C  Vector3U5BU5D_t5FB88EAA33E46838BDC2ABDAEA3E8727491CB9E4* Buffer
 	Vector3U5BU5D_t5FB88EAA33E46838BDC2ABDAEA3E8727491CB9E4* _returnValue;
 	_returnValue = Buffer_1_ToArray_m43F0335ACDA4DCEE135EB114C57D0EF0264B281D(_thisAdjusted, method);
 	return _returnValue;
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void System.Dynamic.Utils.CacheDict`2<System.Object,System.Object>::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CacheDict_2__ctor_m00697894AA73CE236834AB326F94431441B26B2D_gshared (CacheDict_2_t4D7FFB59CB1E33398FCBBDC6A739780EC97F3F14 * __this, int32_t ___size0, const RuntimeMethod* method)
-{
-	int32_t V_0 = 0;
-	{
-		NullCheck((RuntimeObject *)__this);
-		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405((RuntimeObject *)__this, /*hidden argument*/NULL);
-		int32_t L_0 = ___size0;
-		int32_t L_1;
-		L_1 = ((  int32_t (*) (int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 0)->methodPointer)((int32_t)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 0));
-		V_0 = (int32_t)L_1;
-		int32_t L_2 = V_0;
-		__this->set__mask_0(((int32_t)il2cpp_codegen_subtract((int32_t)L_2, (int32_t)1)));
-		int32_t L_3 = V_0;
-		EntryU5BU5D_t0AE7C45A2660073FABAEA78B10276AEF0D51E8A8* L_4 = (EntryU5BU5D_t0AE7C45A2660073FABAEA78B10276AEF0D51E8A8*)(EntryU5BU5D_t0AE7C45A2660073FABAEA78B10276AEF0D51E8A8*)SZArrayNew(IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 2), (uint32_t)L_3);
-		__this->set__entries_1(L_4);
-		return;
-	}
-}
-// System.Int32 System.Dynamic.Utils.CacheDict`2<System.Object,System.Object>::AlignSize(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CacheDict_2_AlignSize_m4F2249A6B947E13E8FB9EBB46B903F4C243AE8CD_gshared (int32_t ___size0, const RuntimeMethod* method)
-{
-	{
-		int32_t L_0 = ___size0;
-		___size0 = (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_0, (int32_t)1));
-		int32_t L_1 = ___size0;
-		int32_t L_2 = ___size0;
-		___size0 = (int32_t)((int32_t)((int32_t)L_1|(int32_t)((int32_t)((int32_t)L_2>>(int32_t)1))));
-		int32_t L_3 = ___size0;
-		int32_t L_4 = ___size0;
-		___size0 = (int32_t)((int32_t)((int32_t)L_3|(int32_t)((int32_t)((int32_t)L_4>>(int32_t)2))));
-		int32_t L_5 = ___size0;
-		int32_t L_6 = ___size0;
-		___size0 = (int32_t)((int32_t)((int32_t)L_5|(int32_t)((int32_t)((int32_t)L_6>>(int32_t)4))));
-		int32_t L_7 = ___size0;
-		int32_t L_8 = ___size0;
-		___size0 = (int32_t)((int32_t)((int32_t)L_7|(int32_t)((int32_t)((int32_t)L_8>>(int32_t)8))));
-		int32_t L_9 = ___size0;
-		int32_t L_10 = ___size0;
-		___size0 = (int32_t)((int32_t)((int32_t)L_9|(int32_t)((int32_t)((int32_t)L_10>>(int32_t)((int32_t)16)))));
-		int32_t L_11 = ___size0;
-		___size0 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_11, (int32_t)1));
-		int32_t L_12 = ___size0;
-		return (int32_t)L_12;
-	}
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

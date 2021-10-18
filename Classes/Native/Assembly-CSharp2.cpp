@@ -507,6 +507,8 @@ struct Light_tA2F349FE839781469A0344CF6039B51512394275;
 struct LightOnAudio_tBF4C364325C374265F848735F92D105C75573274;
 // LookAtCamera
 struct LookAtCamera_t1A909DB8DF88C609D403662C931A1713806027B2;
+// LookAtCameraForward
+struct LookAtCameraForward_tE36C7001CD8E01E4E156F8A0ECF4212943E5AE8D;
 // LookAtCameraPortal
 struct LookAtCameraPortal_tD03C5AF4936621C4F915016BF7CC53C0B27C6D66;
 // DevionGames.LookAtMainCamera
@@ -12036,6 +12038,15 @@ public:
 };
 
 
+// LookAtCameraForward
+struct LookAtCameraForward_tE36C7001CD8E01E4E156F8A0ECF4212943E5AE8D  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+{
+public:
+
+public:
+};
+
+
 // LookAtCameraPortal
 struct LookAtCameraPortal_tD03C5AF4936621C4F915016BF7CC53C0B27C6D66  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
@@ -16505,10 +16516,10 @@ inline Light_tA2F349FE839781469A0344CF6039B51512394275 * Component_GetComponent_
 }
 // System.Void UnityEngine.Light::set_intensity(System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Light_set_intensity_m372D5B9494809AFAD717B2707957DD1478C52DFC (Light_tA2F349FE839781469A0344CF6039B51512394275 * __this, float ___value0, const RuntimeMethod* method);
-// System.Void UnityEngine.Transform::LookAt(UnityEngine.Vector3)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_LookAt_m996FADE2327B0A4412FF4A5179B8BABD9EB849BA (Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * __this, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___worldPosition0, const RuntimeMethod* method);
 // System.Void UnityEngine.Transform::LookAt(UnityEngine.Transform)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_LookAt_m49185D782014D16DA747C1296BEBAC3FB3CEDC1F (Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * __this, Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * ___target0, const RuntimeMethod* method);
+// System.Void UnityEngine.Transform::LookAt(UnityEngine.Vector3)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_LookAt_m996FADE2327B0A4412FF4A5179B8BABD9EB849BA (Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * __this, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___worldPosition0, const RuntimeMethod* method);
 // UnityEngine.Vector3 UnityEngine.Quaternion::get_eulerAngles()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  Quaternion_get_eulerAngles_m3DA616CAD670235A407E8A7A75925AA8E22338C3 (Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4 * __this, const RuntimeMethod* method);
 // UnityEngine.Quaternion UnityEngine.Quaternion::Euler(UnityEngine.Vector3)
@@ -29318,6 +29329,48 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtCamera_Start_mCFE758FBB48D39BDD130
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtCamera_Update_m6D9202748A260CEBA5420C43FA50844A642FACFB (LookAtCamera_t1A909DB8DF88C609D403662C931A1713806027B2 * __this, const RuntimeMethod* method)
 {
 	{
+		// transform.LookAt(Camera.main.transform);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_0;
+		L_0 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(__this, /*hidden argument*/NULL);
+		Camera_tC44E094BAB53AFC8A014C6F9CFCE11F4FC38006C * L_1;
+		L_1 = Camera_get_main_mC337C621B91591CEF89504C97EF64D717C12871C(/*hidden argument*/NULL);
+		NullCheck(L_1);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_2;
+		L_2 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(L_1, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Transform_LookAt_m49185D782014D16DA747C1296BEBAC3FB3CEDC1F(L_0, L_2, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void LookAtCamera::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtCamera__ctor_mCA03F526C152A3EE7381FC8F3E232BB791884238 (LookAtCamera_t1A909DB8DF88C609D403662C931A1713806027B2 * __this, const RuntimeMethod* method)
+{
+	{
+		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void LookAtCameraForward::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtCameraForward_Start_mE7D11305219DEE4D4827419E27E0DAA0232BEA5D (LookAtCameraForward_tE36C7001CD8E01E4E156F8A0ECF4212943E5AE8D * __this, const RuntimeMethod* method)
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void LookAtCameraForward::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtCameraForward_Update_m74480A9F581C96F9B34BF15ED6390F46559C0D49 (LookAtCameraForward_tE36C7001CD8E01E4E156F8A0ECF4212943E5AE8D * __this, const RuntimeMethod* method)
+{
+	{
 		// transform.LookAt(Camera.main.transform.forward);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_0;
 		L_0 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(__this, /*hidden argument*/NULL);
@@ -29335,8 +29388,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtCamera_Update_m6D9202748A260CEBA54
 		return;
 	}
 }
-// System.Void LookAtCamera::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtCamera__ctor_mCA03F526C152A3EE7381FC8F3E232BB791884238 (LookAtCamera_t1A909DB8DF88C609D403662C931A1713806027B2 * __this, const RuntimeMethod* method)
+// System.Void LookAtCameraForward::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtCameraForward__ctor_m31257B3A8EC13CDE575B541BBE7CCB0055D5E96D (LookAtCameraForward_tE36C7001CD8E01E4E156F8A0ECF4212943E5AE8D * __this, const RuntimeMethod* method)
 {
 	{
 		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
