@@ -2,16 +2,6 @@
     "serializedTypes": [],
     "typesInScenes": [
         {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Behaviour",
-            "fullManagedTypeName": "UnityEngine.Behaviour",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/RouteScene.unity",
-                "Assets/Scenes/ExitScene.unity"
-            ]
-        },
-        {
             "managedAssemblyName": "",
             "nativeClass": "StreamingManager",
             "fullManagedTypeName": "",
@@ -69,16 +59,6 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Component",
-            "fullManagedTypeName": "UnityEngine.Component",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/RouteScene.unity",
-                "Assets/Scenes/ExitScene.unity"
-            ]
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
@@ -198,16 +178,6 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "MonoBehaviour",
-            "fullManagedTypeName": "UnityEngine.MonoBehaviour",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/RouteScene.unity",
-                "Assets/Scenes/ExitScene.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Physics2DSettings",
             "fullManagedTypeName": "UnityEditor.Physics2DSettings",
             "moduleName": "Physics2D",
@@ -282,6 +252,16 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Behaviour",
+            "fullManagedTypeName": "UnityEngine.Behaviour",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/RouteScene.unity",
+                "Assets/Scenes/ExitScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Sprite",
             "fullManagedTypeName": "UnityEngine.Sprite",
             "moduleName": "Core",
@@ -341,6 +321,16 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Component",
+            "fullManagedTypeName": "UnityEngine.Component",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/RouteScene.unity",
+                "Assets/Scenes/ExitScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "GameObject",
             "fullManagedTypeName": "UnityEngine.GameObject",
             "moduleName": "Core",
@@ -350,19 +340,20 @@
             ]
         },
         {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "ComputeShader",
-            "fullManagedTypeName": "UnityEngine.ComputeShader",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/RouteScene.unity"
-            ]
-        },
-        {
             "managedAssemblyName": "",
             "nativeClass": "NavMeshSettings",
             "fullManagedTypeName": "",
             "moduleName": "AI",
+            "usedInScenes": [
+                "Assets/Scenes/RouteScene.unity",
+                "Assets/Scenes/ExitScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "MonoBehaviour",
+            "fullManagedTypeName": "UnityEngine.MonoBehaviour",
+            "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/RouteScene.unity",
                 "Assets/Scenes/ExitScene.unity"
@@ -666,13 +657,6 @@
             "managedAssemblyName": "Unity.TextMeshPro.dll",
             "nativeClass": "",
             "fullManagedTypeName": "TMPro.TMP_StyleSheet",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.XR.ARKit.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.XR.ARKit.ARKitLoader",
             "moduleName": "",
             "usedInScenes": []
         },

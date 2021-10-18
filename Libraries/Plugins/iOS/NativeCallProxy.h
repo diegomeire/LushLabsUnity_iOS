@@ -21,6 +21,7 @@ typedef void (*LushLabsUnityDelegate)(const char* name);
 - (void) showTopBar;
 - (void) hideTopBar;
 - (void) popViewController;
+- (void) playCameraShutter;
 // other methods
 @end
 

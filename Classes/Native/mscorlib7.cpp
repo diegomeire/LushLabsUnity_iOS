@@ -14469,16 +14469,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Math_Sign_mF70767482E334D3EA66CAD19C6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentOutOfRangeException__ctor_mE43AFC74F5F3932913C023A04B24905E093C5005 (ArgumentOutOfRangeException_tFAF23713820951D4A09ABBFE5CC091E445A6F3D8 * __this, String_t* ___paramName0, String_t* ___message1, const RuntimeMethod* method);
 // System.Double System.Math::InternalRound(System.Double,System.Int32,System.MidpointRounding)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_InternalRound_m7A2764959908579BE253EFFA43AEF3A569979217 (double ___value0, int32_t ___digits1, int32_t ___mode2, const RuntimeMethod* method);
-// System.Boolean System.Double::IsNaN(System.Double)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Double_IsNaN_m94415C98C2D7DCAA32A82E1911AC13958AAD4347 (double ___d0, const RuntimeMethod* method);
-// System.Boolean System.Double::IsNegative(System.Double)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Double_IsNegative_m662219A5FC5373C121E65F6B70A2860225231343 (double ___d0, const RuntimeMethod* method);
 // System.Int32 System.Math::AbsHelper(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Math_AbsHelper_m6929AD57E51530636E1F32090392CDC80755B726 (int32_t ___value0, const RuntimeMethod* method);
 // System.Void System.OverflowException::.ctor(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OverflowException__ctor_m93384109E3514E1EB7F97A50893B1B617D21F91E (OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 * __this, String_t* ___message0, const RuntimeMethod* method);
 // System.Boolean System.Single::IsNaN(System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Single_IsNaN_m458FF076EF1944D4D888A585F7C6C49DA4730599 (float ___f0, const RuntimeMethod* method);
+// System.Boolean System.Double::IsNaN(System.Double)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Double_IsNaN_m94415C98C2D7DCAA32A82E1911AC13958AAD4347 (double ___d0, const RuntimeMethod* method);
 // System.Boolean System.Double::IsPositiveInfinity(System.Double)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Double_IsPositiveInfinity_mD5882DEFC8FAA4CCDAE48B26B9CECAB5B7A53C96 (double ___d0, const RuntimeMethod* method);
 // System.Void System.ArithmeticException::.ctor(System.String)
@@ -16090,168 +16088,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_Pow_mC2C8700DAAD1316AA457A1D271F7
 	typedef double (*Math_Pow_mC2C8700DAAD1316AA457A1D271F78CDF0D61AC2F_ftn) (double, double);
 	using namespace il2cpp::icalls;
 	return ((Math_Pow_mC2C8700DAAD1316AA457A1D271F78CDF0D61AC2F_ftn)mscorlib::System::Math::Pow) (___x0, ___y1);
-}
-// System.Double System.Math::IEEERemainder(System.Double,System.Double)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_IEEERemainder_m2B06020D10636AC81B0DD05AE00C951A24C4186F (double ___x0, double ___y1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tA269614262430118C9FC5C4D9EF4F61C812568F0_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	double V_0 = 0.0;
-	double V_1 = 0.0;
-	double V_2 = 0.0;
-	{
-		double L_0 = ___x0;
-		IL2CPP_RUNTIME_CLASS_INIT(Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181_il2cpp_TypeInfo_var);
-		bool L_1;
-		L_1 = Double_IsNaN_m94415C98C2D7DCAA32A82E1911AC13958AAD4347(L_0, /*hidden argument*/NULL);
-		if (!L_1)
-		{
-			goto IL_000a;
-		}
-	}
-	{
-		double L_2 = ___x0;
-		return L_2;
-	}
-
-IL_000a:
-	{
-		double L_3 = ___y1;
-		IL2CPP_RUNTIME_CLASS_INIT(Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181_il2cpp_TypeInfo_var);
-		bool L_4;
-		L_4 = Double_IsNaN_m94415C98C2D7DCAA32A82E1911AC13958AAD4347(L_3, /*hidden argument*/NULL);
-		if (!L_4)
-		{
-			goto IL_0014;
-		}
-	}
-	{
-		double L_5 = ___y1;
-		return L_5;
-	}
-
-IL_0014:
-	{
-		double L_6 = ___x0;
-		double L_7 = ___y1;
-		V_0 = (fmod(L_6, L_7));
-		double L_8 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181_il2cpp_TypeInfo_var);
-		bool L_9;
-		L_9 = Double_IsNaN_m94415C98C2D7DCAA32A82E1911AC13958AAD4347(L_8, /*hidden argument*/NULL);
-		if (!L_9)
-		{
-			goto IL_002a;
-		}
-	}
-	{
-		return (std::numeric_limits<double>::quiet_NaN());
-	}
-
-IL_002a:
-	{
-		double L_10 = V_0;
-		if ((!(((double)L_10) == ((double)(0.0)))))
-		{
-			goto IL_0044;
-		}
-	}
-	{
-		double L_11 = ___x0;
-		IL2CPP_RUNTIME_CLASS_INIT(Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181_il2cpp_TypeInfo_var);
-		bool L_12;
-		L_12 = Double_IsNegative_m662219A5FC5373C121E65F6B70A2860225231343(L_11, /*hidden argument*/NULL);
-		if (!L_12)
-		{
-			goto IL_0044;
-		}
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181_il2cpp_TypeInfo_var);
-		double L_13 = ((Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181_StaticFields*)il2cpp_codegen_static_fields_for(Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181_il2cpp_TypeInfo_var))->get_NegativeZero_7();
-		return L_13;
-	}
-
-IL_0044:
-	{
-		double L_14 = V_0;
-		double L_15 = ___y1;
-		IL2CPP_RUNTIME_CLASS_INIT(Math_tA269614262430118C9FC5C4D9EF4F61C812568F0_il2cpp_TypeInfo_var);
-		double L_16;
-		L_16 = fabs(L_15);
-		double L_17 = ___x0;
-		int32_t L_18;
-		L_18 = Math_Sign_mF70767482E334D3EA66CAD19C6B575FBB2DAF565(L_17, /*hidden argument*/NULL);
-		V_1 = ((double)il2cpp_codegen_subtract((double)L_14, (double)((double)il2cpp_codegen_multiply((double)L_16, (double)((double)((double)L_18))))));
-		double L_19 = V_1;
-		double L_20;
-		L_20 = fabs(L_19);
-		double L_21 = V_0;
-		double L_22;
-		L_22 = fabs(L_21);
-		if ((!(((double)L_20) == ((double)L_22))))
-		{
-			goto IL_007e;
-		}
-	}
-	{
-		double L_23 = ___x0;
-		double L_24 = ___y1;
-		V_2 = ((double)((double)L_23/(double)L_24));
-		double L_25 = V_2;
-		IL2CPP_RUNTIME_CLASS_INIT(Math_tA269614262430118C9FC5C4D9EF4F61C812568F0_il2cpp_TypeInfo_var);
-		double L_26;
-		L_26 = bankers_round(L_25);
-		double L_27;
-		L_27 = fabs(L_26);
-		double L_28 = V_2;
-		double L_29;
-		L_29 = fabs(L_28);
-		if ((!(((double)L_27) > ((double)L_29))))
-		{
-			goto IL_007c;
-		}
-	}
-	{
-		double L_30 = V_1;
-		return L_30;
-	}
-
-IL_007c:
-	{
-		double L_31 = V_0;
-		return L_31;
-	}
-
-IL_007e:
-	{
-		double L_32 = V_1;
-		IL2CPP_RUNTIME_CLASS_INIT(Math_tA269614262430118C9FC5C4D9EF4F61C812568F0_il2cpp_TypeInfo_var);
-		double L_33;
-		L_33 = fabs(L_32);
-		double L_34 = V_0;
-		double L_35;
-		L_35 = fabs(L_34);
-		if ((!(((double)L_33) < ((double)L_35))))
-		{
-			goto IL_008e;
-		}
-	}
-	{
-		double L_36 = V_1;
-		return L_36;
-	}
-
-IL_008e:
-	{
-		double L_37 = V_0;
-		return L_37;
-	}
 }
 // System.Int32 System.Math::Abs(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Math_Abs_mFD9FA0F8DEA45CAB224E0E59FED3A4FF36D55A1C (int32_t ___value0, const RuntimeMethod* method)

@@ -1,5 +1,6 @@
 #import <Foundation/Foundation.h>
 #import "NativeCallProxy.h"
+#import <AudioToolbox/AudioToolbox.h>
 
 @implementation FrameworkLibAPI
 
@@ -58,5 +59,9 @@ extern "C" {
         [api popViewController];
     }
 
+  void
+    playCameraShutter(){
+        [api playCameraShutter];
+    }
 
 }

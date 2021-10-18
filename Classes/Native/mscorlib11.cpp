@@ -21186,14 +21186,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Single_IsInfinity_m10D3B235800230231AFC3
 		return (bool)((((int32_t)((int32_t)((int32_t)L_0&(int32_t)((int32_t)2147483647LL)))) == ((int32_t)((int32_t)2139095040)))? 1 : 0);
 	}
 }
-// System.Boolean System.Single::IsPositiveInfinity(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Single_IsPositiveInfinity_m724E248D99DA0A684DA0A6F071AB78FEDA56AFE2 (float ___f0, const RuntimeMethod* method)
-{
-	{
-		int32_t L_0 = *((int32_t*)((uintptr_t)(&___f0)));
-		return (bool)((((int32_t)L_0) == ((int32_t)((int32_t)2139095040)))? 1 : 0);
-	}
-}
 // System.Boolean System.Single::IsNaN(System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Single_IsNaN_m458FF076EF1944D4D888A585F7C6C49DA4730599 (float ___f0, const RuntimeMethod* method)
 {
