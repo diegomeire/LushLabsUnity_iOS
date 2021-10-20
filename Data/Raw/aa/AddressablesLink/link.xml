@@ -85,13 +85,14 @@
     <type fullname="MouseCollider3D" preserve="all" />
     <type fullname="CameraZoomState" preserve="all" />
     <type fullname="PostProcessing" preserve="all" />
+    <type fullname="LookAtCameraForward" preserve="all" />
     <type fullname="FluidBehaviourScript" preserve="all" />
     <type fullname="CFX_AutoDestructShuriken" preserve="all" />
     <type fullname="DanielLochner.Assets.SimpleScrollSnap.SimpleScrollSnap" preserve="all" />
     <type fullname="CameraDepthTextureMode" preserve="all" />
     <type fullname="CauldronController" preserve="all" />
     <type fullname="FluidLayer" preserve="all" />
-    <type fullname="LookAtCamera" preserve="all" />
+    <type fullname="DigitalRuby.SimpleLUT.SimpleLUT" preserve="all" />
     <type fullname="ShaderBuildinHelper" preserve="all" />
     <type fullname="WaterInteractor" preserve="all" />
     <type fullname="ExperimentButton" preserve="all" />
@@ -99,6 +100,7 @@
     <type fullname="Face" preserve="all" />
     <type fullname="FaceAnchor" preserve="all" />
     <type fullname="UnityEngine.XR.ARFoundation.Samples.ARFeatheredPlaneMeshVisualizer" preserve="all" />
+    <type fullname="LookAtCamera" preserve="all" />
     <type fullname="LushCamController" preserve="all" />
     <type fullname="BubbleHead" preserve="all" />
   </assembly>

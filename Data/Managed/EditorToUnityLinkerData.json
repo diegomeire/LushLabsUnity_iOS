@@ -444,6 +444,13 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Unity.Postprocessing.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.Rendering.PostProcessing.PostProcessResources",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "Unity.RenderPipelines.Core.Runtime.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.Rendering.UI.DebugUIHandlerBitField",
@@ -626,20 +633,6 @@
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Unity.RenderPipelines.Universal.Runtime.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.Rendering.Universal.UniversalAdditionalCameraData",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.RenderPipelines.Universal.Runtime.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.Rendering.Universal.UniversalAdditionalLightData",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
             "managedAssemblyName": "Unity.TextMeshPro.dll",
             "nativeClass": "",
             "fullManagedTypeName": "TMPro.TMP_FontAsset",
@@ -754,13 +747,6 @@
         {
             "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.UI.RawImage",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.UI.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.UI.ScrollRect",
             "moduleName": "",
             "usedInScenes": []
@@ -790,6 +776,13 @@
             "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.UI.VerticalLayoutGroup",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "com.unity.multiplayer-hlapi.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.Networking.NetworkCallbacks",
             "moduleName": "",
             "usedInScenes": []
         }

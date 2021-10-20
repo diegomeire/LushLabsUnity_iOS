@@ -4913,25 +4913,25 @@ struct RenderQueueRange_t328914EF72BEF60B323076881C62F04CE14027B7_StaticFields
 {
 public:
 	// System.Int32 UnityEngine.Rendering.RenderQueueRange::minimumBound
-	int32_t ___minimumBound_3;
+	int32_t ___minimumBound_2;
 	// System.Int32 UnityEngine.Rendering.RenderQueueRange::maximumBound
-	int32_t ___maximumBound_5;
+	int32_t ___maximumBound_3;
 
 public:
-	inline static int32_t get_offset_of_minimumBound_3() { return static_cast<int32_t>(offsetof(RenderQueueRange_t328914EF72BEF60B323076881C62F04CE14027B7_StaticFields, ___minimumBound_3)); }
-	inline int32_t get_minimumBound_3() const { return ___minimumBound_3; }
-	inline int32_t* get_address_of_minimumBound_3() { return &___minimumBound_3; }
-	inline void set_minimumBound_3(int32_t value)
+	inline static int32_t get_offset_of_minimumBound_2() { return static_cast<int32_t>(offsetof(RenderQueueRange_t328914EF72BEF60B323076881C62F04CE14027B7_StaticFields, ___minimumBound_2)); }
+	inline int32_t get_minimumBound_2() const { return ___minimumBound_2; }
+	inline int32_t* get_address_of_minimumBound_2() { return &___minimumBound_2; }
+	inline void set_minimumBound_2(int32_t value)
 	{
-		___minimumBound_3 = value;
+		___minimumBound_2 = value;
 	}
 
-	inline static int32_t get_offset_of_maximumBound_5() { return static_cast<int32_t>(offsetof(RenderQueueRange_t328914EF72BEF60B323076881C62F04CE14027B7_StaticFields, ___maximumBound_5)); }
-	inline int32_t get_maximumBound_5() const { return ___maximumBound_5; }
-	inline int32_t* get_address_of_maximumBound_5() { return &___maximumBound_5; }
-	inline void set_maximumBound_5(int32_t value)
+	inline static int32_t get_offset_of_maximumBound_3() { return static_cast<int32_t>(offsetof(RenderQueueRange_t328914EF72BEF60B323076881C62F04CE14027B7_StaticFields, ___maximumBound_3)); }
+	inline int32_t get_maximumBound_3() const { return ___maximumBound_3; }
+	inline int32_t* get_address_of_maximumBound_3() { return &___maximumBound_3; }
+	inline void set_maximumBound_3(int32_t value)
 	{
-		___maximumBound_5 = value;
+		___maximumBound_3 = value;
 	}
 };
 
