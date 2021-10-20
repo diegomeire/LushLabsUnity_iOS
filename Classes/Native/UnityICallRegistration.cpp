@@ -874,6 +874,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Application_get_temporaryCachePath();
 		Register_UnityEngine_Application_get_temporaryCachePath();
 
+		//System.Void UnityEngine.Application::OpenURL(System.String)
+		void Register_UnityEngine_Application_OpenURL();
+		Register_UnityEngine_Application_OpenURL();
+
 		//System.Void UnityEngine.Application::Quit(System.Int32)
 		void Register_UnityEngine_Application_Quit();
 		Register_UnityEngine_Application_Quit();

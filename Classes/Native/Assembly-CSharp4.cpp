@@ -681,10 +681,10 @@ struct U3CWaitAndStopU3Ed__5_t3C1EB5E98F38B6B8C5356E2B0A9DB2645EADB894;
 struct WillRenderCanvases_t459621B4F3FA2571DE0ED6B4DEF0752F2E9EE958;
 // CauldronController/<>c
 struct U3CU3Ec_tFAA80A48DC2EB265A89FAC3B2FA3FCF9B475C42A;
-// CauldronController/<Start>d__90
-struct U3CStartU3Ed__90_t76F5AA1C40E518E2747FDEB91C865C69DC4CAC25;
-// CauldronController/<TakeScreenshot>d__45
-struct U3CTakeScreenshotU3Ed__45_tF0F68BA95E03AEB346ECCAEB176F8595FA93D0B4;
+// CauldronController/<Start>d__91
+struct U3CStartU3Ed__91_t84A4418C31F13963AD9AE9CA85892B1A1A857923;
+// CauldronController/<TakeScreenshot>d__46
+struct U3CTakeScreenshotU3Ed__46_t81B5C3A4658CEF175ED7299F83BA0CF933B98D81;
 // CauldronController/CauldronChoiceParameter
 struct CauldronChoiceParameter_tC58656C8F0099A5219B7A37B74CA7B32A3DAE852;
 // DevionGames.UIWidgets.ContextMenu/<>c
@@ -1171,9 +1171,9 @@ IL2CPP_EXTERN_C const RuntimeMethod* U3CKillU3Ed__2_System_Collections_IEnumerat
 IL2CPP_EXTERN_C const RuntimeMethod* U3COnDelayedStartU3Ed__27_System_Collections_IEnumerator_Reset_m0E23141DD822E95EC1ED31BBE77E26FE2B7FC018_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CProcessU3Ed__7_System_Collections_IEnumerator_Reset_m698EDE0700783ABCBB29A1437F2509C832097C42_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CSearchCameraU3Ed__6_System_Collections_IEnumerator_Reset_m46FA2D8D5E18DA5950F9E38627EA0E41442FEFC7_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CStartU3Ed__90_System_Collections_IEnumerator_Reset_mA724065621AE282630F0FEC160B0DE20E4282FF0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CStartU3Ed__91_System_Collections_IEnumerator_Reset_m7E2D07951496F4CF8138A1595296C5920444CAF2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CTakeScreenshotU3Ed__35_System_Collections_IEnumerator_Reset_mC0ED7D48F4CACE951F3AC85C2269F12693DD228D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CTakeScreenshotU3Ed__45_System_Collections_IEnumerator_Reset_m632D1314AE6CDB0EDDDBE0815FAEABE79243A1F0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CTakeScreenshotU3Ed__46_System_Collections_IEnumerator_Reset_mD5DBF8E0EC2B06925D63781404224C5AF9B1C645_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass30_0_U3CTweenCanvasGroupAlphaU3Eb__0_mE1518EE4CA8ADA83B36965EB3D8F4E7D9E655003_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass30_0_U3CTweenCanvasGroupAlphaU3Eb__1_m2A43B84C87AED717E58818182250CF2A6FF7F767_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CWaitAndChangeOffsetU3Ed__4_System_Collections_IEnumerator_Reset_m7B8425B79EFF8620E50639A5DDEBB44E336DDD27_RuntimeMethod_var;
@@ -3396,8 +3396,8 @@ struct U3CU3Ec_tFAA80A48DC2EB265A89FAC3B2FA3FCF9B475C42A_StaticFields
 public:
 	// CauldronController/<>c CauldronController/<>c::<>9
 	U3CU3Ec_tFAA80A48DC2EB265A89FAC3B2FA3FCF9B475C42A * ___U3CU3E9_0;
-	// NativeShare/ShareResultCallback CauldronController/<>c::<>9__18_0
-	ShareResultCallback_t8D755C355CFB21181B1B10ECFDA036362F1C624F * ___U3CU3E9__18_0_1;
+	// NativeShare/ShareResultCallback CauldronController/<>c::<>9__19_0
+	ShareResultCallback_t8D755C355CFB21181B1B10ECFDA036362F1C624F * ___U3CU3E9__19_0_1;
 
 public:
 	inline static int32_t get_offset_of_U3CU3E9_0() { return static_cast<int32_t>(offsetof(U3CU3Ec_tFAA80A48DC2EB265A89FAC3B2FA3FCF9B475C42A_StaticFields, ___U3CU3E9_0)); }
@@ -3409,30 +3409,30 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E9_0), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_U3CU3E9__18_0_1() { return static_cast<int32_t>(offsetof(U3CU3Ec_tFAA80A48DC2EB265A89FAC3B2FA3FCF9B475C42A_StaticFields, ___U3CU3E9__18_0_1)); }
-	inline ShareResultCallback_t8D755C355CFB21181B1B10ECFDA036362F1C624F * get_U3CU3E9__18_0_1() const { return ___U3CU3E9__18_0_1; }
-	inline ShareResultCallback_t8D755C355CFB21181B1B10ECFDA036362F1C624F ** get_address_of_U3CU3E9__18_0_1() { return &___U3CU3E9__18_0_1; }
-	inline void set_U3CU3E9__18_0_1(ShareResultCallback_t8D755C355CFB21181B1B10ECFDA036362F1C624F * value)
+	inline static int32_t get_offset_of_U3CU3E9__19_0_1() { return static_cast<int32_t>(offsetof(U3CU3Ec_tFAA80A48DC2EB265A89FAC3B2FA3FCF9B475C42A_StaticFields, ___U3CU3E9__19_0_1)); }
+	inline ShareResultCallback_t8D755C355CFB21181B1B10ECFDA036362F1C624F * get_U3CU3E9__19_0_1() const { return ___U3CU3E9__19_0_1; }
+	inline ShareResultCallback_t8D755C355CFB21181B1B10ECFDA036362F1C624F ** get_address_of_U3CU3E9__19_0_1() { return &___U3CU3E9__19_0_1; }
+	inline void set_U3CU3E9__19_0_1(ShareResultCallback_t8D755C355CFB21181B1B10ECFDA036362F1C624F * value)
 	{
-		___U3CU3E9__18_0_1 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E9__18_0_1), (void*)value);
+		___U3CU3E9__19_0_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E9__19_0_1), (void*)value);
 	}
 };
 
 
-// CauldronController/<Start>d__90
-struct U3CStartU3Ed__90_t76F5AA1C40E518E2747FDEB91C865C69DC4CAC25  : public RuntimeObject
+// CauldronController/<Start>d__91
+struct U3CStartU3Ed__91_t84A4418C31F13963AD9AE9CA85892B1A1A857923  : public RuntimeObject
 {
 public:
-	// System.Int32 CauldronController/<Start>d__90::<>1__state
+	// System.Int32 CauldronController/<Start>d__91::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object CauldronController/<Start>d__90::<>2__current
+	// System.Object CauldronController/<Start>d__91::<>2__current
 	RuntimeObject * ___U3CU3E2__current_1;
-	// CauldronController CauldronController/<Start>d__90::<>4__this
+	// CauldronController CauldronController/<Start>d__91::<>4__this
 	CauldronController_t08BC253AC8443A04FF72247ECADF61B7F0BBEFF2 * ___U3CU3E4__this_2;
 
 public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CStartU3Ed__90_t76F5AA1C40E518E2747FDEB91C865C69DC4CAC25, ___U3CU3E1__state_0)); }
+	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CStartU3Ed__91_t84A4418C31F13963AD9AE9CA85892B1A1A857923, ___U3CU3E1__state_0)); }
 	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
 	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
 	inline void set_U3CU3E1__state_0(int32_t value)
@@ -3440,7 +3440,7 @@ public:
 		___U3CU3E1__state_0 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CStartU3Ed__90_t76F5AA1C40E518E2747FDEB91C865C69DC4CAC25, ___U3CU3E2__current_1)); }
+	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CStartU3Ed__91_t84A4418C31F13963AD9AE9CA85892B1A1A857923, ___U3CU3E2__current_1)); }
 	inline RuntimeObject * get_U3CU3E2__current_1() const { return ___U3CU3E2__current_1; }
 	inline RuntimeObject ** get_address_of_U3CU3E2__current_1() { return &___U3CU3E2__current_1; }
 	inline void set_U3CU3E2__current_1(RuntimeObject * value)
@@ -3449,7 +3449,7 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E2__current_1), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CStartU3Ed__90_t76F5AA1C40E518E2747FDEB91C865C69DC4CAC25, ___U3CU3E4__this_2)); }
+	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CStartU3Ed__91_t84A4418C31F13963AD9AE9CA85892B1A1A857923, ___U3CU3E4__this_2)); }
 	inline CauldronController_t08BC253AC8443A04FF72247ECADF61B7F0BBEFF2 * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
 	inline CauldronController_t08BC253AC8443A04FF72247ECADF61B7F0BBEFF2 ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
 	inline void set_U3CU3E4__this_2(CauldronController_t08BC253AC8443A04FF72247ECADF61B7F0BBEFF2 * value)
@@ -3460,19 +3460,19 @@ public:
 };
 
 
-// CauldronController/<TakeScreenshot>d__45
-struct U3CTakeScreenshotU3Ed__45_tF0F68BA95E03AEB346ECCAEB176F8595FA93D0B4  : public RuntimeObject
+// CauldronController/<TakeScreenshot>d__46
+struct U3CTakeScreenshotU3Ed__46_t81B5C3A4658CEF175ED7299F83BA0CF933B98D81  : public RuntimeObject
 {
 public:
-	// System.Int32 CauldronController/<TakeScreenshot>d__45::<>1__state
+	// System.Int32 CauldronController/<TakeScreenshot>d__46::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object CauldronController/<TakeScreenshot>d__45::<>2__current
+	// System.Object CauldronController/<TakeScreenshot>d__46::<>2__current
 	RuntimeObject * ___U3CU3E2__current_1;
-	// CauldronController CauldronController/<TakeScreenshot>d__45::<>4__this
+	// CauldronController CauldronController/<TakeScreenshot>d__46::<>4__this
 	CauldronController_t08BC253AC8443A04FF72247ECADF61B7F0BBEFF2 * ___U3CU3E4__this_2;
 
 public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CTakeScreenshotU3Ed__45_tF0F68BA95E03AEB346ECCAEB176F8595FA93D0B4, ___U3CU3E1__state_0)); }
+	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CTakeScreenshotU3Ed__46_t81B5C3A4658CEF175ED7299F83BA0CF933B98D81, ___U3CU3E1__state_0)); }
 	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
 	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
 	inline void set_U3CU3E1__state_0(int32_t value)
@@ -3480,7 +3480,7 @@ public:
 		___U3CU3E1__state_0 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CTakeScreenshotU3Ed__45_tF0F68BA95E03AEB346ECCAEB176F8595FA93D0B4, ___U3CU3E2__current_1)); }
+	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CTakeScreenshotU3Ed__46_t81B5C3A4658CEF175ED7299F83BA0CF933B98D81, ___U3CU3E2__current_1)); }
 	inline RuntimeObject * get_U3CU3E2__current_1() const { return ___U3CU3E2__current_1; }
 	inline RuntimeObject ** get_address_of_U3CU3E2__current_1() { return &___U3CU3E2__current_1; }
 	inline void set_U3CU3E2__current_1(RuntimeObject * value)
@@ -3489,7 +3489,7 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E2__current_1), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CTakeScreenshotU3Ed__45_tF0F68BA95E03AEB346ECCAEB176F8595FA93D0B4, ___U3CU3E4__this_2)); }
+	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CTakeScreenshotU3Ed__46_t81B5C3A4658CEF175ED7299F83BA0CF933B98D81, ___U3CU3E4__this_2)); }
 	inline CauldronController_t08BC253AC8443A04FF72247ECADF61B7F0BBEFF2 * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
 	inline CauldronController_t08BC253AC8443A04FF72247ECADF61B7F0BBEFF2 ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
 	inline void set_U3CU3E4__this_2(CauldronController_t08BC253AC8443A04FF72247ECADF61B7F0BBEFF2 * value)
@@ -24364,8 +24364,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m1A1A1912A3BAFABCDF8A750D6
 		return;
 	}
 }
-// System.Void CauldronController/<>c::<Share>b__18_0(NativeShare/ShareResult,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CShareU3Eb__18_0_m481687E4696F2571D001E5ACB27599CA22210972 (U3CU3Ec_tFAA80A48DC2EB265A89FAC3B2FA3FCF9B475C42A * __this, int32_t ___result0, String_t* ___shareTarget1, const RuntimeMethod* method)
+// System.Void CauldronController/<>c::<Share>b__19_0(NativeShare/ShareResult,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CShareU3Eb__19_0_m78BC8D86008C55BFE0393515C1F354B871CF9060 (U3CU3Ec_tFAA80A48DC2EB265A89FAC3B2FA3FCF9B475C42A * __this, int32_t ___result0, String_t* ___shareTarget1, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -24399,8 +24399,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CShareU3Eb__18_0_m481687E4696F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void CauldronController/<Start>d__90::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartU3Ed__90__ctor_mF0456B5853EC373037BBEF761613F26CFCF2D9C2 (U3CStartU3Ed__90_t76F5AA1C40E518E2747FDEB91C865C69DC4CAC25 * __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method)
+// System.Void CauldronController/<Start>d__91::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartU3Ed__91__ctor_mB9602EC903F9832427D92ED37CD2CCAACE09C00E (U3CStartU3Ed__91_t84A4418C31F13963AD9AE9CA85892B1A1A857923 * __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method)
 {
 	{
 		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
@@ -24409,15 +24409,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartU3Ed__90__ctor_mF0456B5853EC3730
 		return;
 	}
 }
-// System.Void CauldronController/<Start>d__90::System.IDisposable.Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartU3Ed__90_System_IDisposable_Dispose_m247361CC49E114BF832EF097144B87A785F25859 (U3CStartU3Ed__90_t76F5AA1C40E518E2747FDEB91C865C69DC4CAC25 * __this, const RuntimeMethod* method)
+// System.Void CauldronController/<Start>d__91::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartU3Ed__91_System_IDisposable_Dispose_m53A3880106B8F5A366241C93E84E9FFA13D03A09 (U3CStartU3Ed__91_t84A4418C31F13963AD9AE9CA85892B1A1A857923 * __this, const RuntimeMethod* method)
 {
 	{
 		return;
 	}
 }
-// System.Boolean CauldronController/<Start>d__90::MoveNext()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CStartU3Ed__90_MoveNext_mBDC3354390B68692065D9C9FD107EE8D339044F8 (U3CStartU3Ed__90_t76F5AA1C40E518E2747FDEB91C865C69DC4CAC25 * __this, const RuntimeMethod* method)
+// System.Boolean CauldronController/<Start>d__91::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CStartU3Ed__91_MoveNext_mC3FC89E9458460A6604FC2B6D3CE182EFD1EE329 (U3CStartU3Ed__91_t84A4418C31F13963AD9AE9CA85892B1A1A857923 * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -24581,25 +24581,25 @@ IL_0083:
 		return (bool)0;
 	}
 }
-// System.Object CauldronController/<Start>d__90::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * U3CStartU3Ed__90_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC5A7DCC65F463DE076CF1BA05A5D96A9EBDFABFC (U3CStartU3Ed__90_t76F5AA1C40E518E2747FDEB91C865C69DC4CAC25 * __this, const RuntimeMethod* method)
+// System.Object CauldronController/<Start>d__91::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * U3CStartU3Ed__91_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mBE3BE7C837641DC7BB5DE19703899A9F72CD2E24 (U3CStartU3Ed__91_t84A4418C31F13963AD9AE9CA85892B1A1A857923 * __this, const RuntimeMethod* method)
 {
 	{
 		RuntimeObject * L_0 = __this->get_U3CU3E2__current_1();
 		return L_0;
 	}
 }
-// System.Void CauldronController/<Start>d__90::System.Collections.IEnumerator.Reset()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartU3Ed__90_System_Collections_IEnumerator_Reset_mA724065621AE282630F0FEC160B0DE20E4282FF0 (U3CStartU3Ed__90_t76F5AA1C40E518E2747FDEB91C865C69DC4CAC25 * __this, const RuntimeMethod* method)
+// System.Void CauldronController/<Start>d__91::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartU3Ed__91_System_Collections_IEnumerator_Reset_m7E2D07951496F4CF8138A1595296C5920444CAF2 (U3CStartU3Ed__91_t84A4418C31F13963AD9AE9CA85892B1A1A857923 * __this, const RuntimeMethod* method)
 {
 	{
 		NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339 * L_0 = (NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339_il2cpp_TypeInfo_var)));
 		NotSupportedException__ctor_m3EA81A5B209A87C3ADA47443F2AFFF735E5256EE(L_0, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CStartU3Ed__90_System_Collections_IEnumerator_Reset_mA724065621AE282630F0FEC160B0DE20E4282FF0_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CStartU3Ed__91_System_Collections_IEnumerator_Reset_m7E2D07951496F4CF8138A1595296C5920444CAF2_RuntimeMethod_var)));
 	}
 }
-// System.Object CauldronController/<Start>d__90::System.Collections.IEnumerator.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * U3CStartU3Ed__90_System_Collections_IEnumerator_get_Current_m74F03E654882C7BC79E67F94B4DF770779C618A9 (U3CStartU3Ed__90_t76F5AA1C40E518E2747FDEB91C865C69DC4CAC25 * __this, const RuntimeMethod* method)
+// System.Object CauldronController/<Start>d__91::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * U3CStartU3Ed__91_System_Collections_IEnumerator_get_Current_m4C95E3CFA22E70AC304521236C7E08852F8C35D6 (U3CStartU3Ed__91_t84A4418C31F13963AD9AE9CA85892B1A1A857923 * __this, const RuntimeMethod* method)
 {
 	{
 		RuntimeObject * L_0 = __this->get_U3CU3E2__current_1();
@@ -24614,8 +24614,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * U3CStartU3Ed__90_System_Colle
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void CauldronController/<TakeScreenshot>d__45::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTakeScreenshotU3Ed__45__ctor_m3A61C26455834EEFBF6662C66BA1F3CCE58876BE (U3CTakeScreenshotU3Ed__45_tF0F68BA95E03AEB346ECCAEB176F8595FA93D0B4 * __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method)
+// System.Void CauldronController/<TakeScreenshot>d__46::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTakeScreenshotU3Ed__46__ctor_mFACCFD32FFC9E9AFCEAC768A1F14E8CCCC81AAEA (U3CTakeScreenshotU3Ed__46_t81B5C3A4658CEF175ED7299F83BA0CF933B98D81 * __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method)
 {
 	{
 		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
@@ -24624,15 +24624,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTakeScreenshotU3Ed__45__ctor_m3A61C26
 		return;
 	}
 }
-// System.Void CauldronController/<TakeScreenshot>d__45::System.IDisposable.Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTakeScreenshotU3Ed__45_System_IDisposable_Dispose_mAE877E41A6AC9D830B4BF925C233001C55C71266 (U3CTakeScreenshotU3Ed__45_tF0F68BA95E03AEB346ECCAEB176F8595FA93D0B4 * __this, const RuntimeMethod* method)
+// System.Void CauldronController/<TakeScreenshot>d__46::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTakeScreenshotU3Ed__46_System_IDisposable_Dispose_m9A94ED34445E93D3C9A70F521BB3E85A45207559 (U3CTakeScreenshotU3Ed__46_t81B5C3A4658CEF175ED7299F83BA0CF933B98D81 * __this, const RuntimeMethod* method)
 {
 	{
 		return;
 	}
 }
-// System.Boolean CauldronController/<TakeScreenshot>d__45::MoveNext()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CTakeScreenshotU3Ed__45_MoveNext_m7C6524C08E7F65E1D09FB8DBCB66F9970E991062 (U3CTakeScreenshotU3Ed__45_tF0F68BA95E03AEB346ECCAEB176F8595FA93D0B4 * __this, const RuntimeMethod* method)
+// System.Boolean CauldronController/<TakeScreenshot>d__46::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CTakeScreenshotU3Ed__46_MoveNext_mB087A938BBB68DDEA6156979951B7D40AD816447 (U3CTakeScreenshotU3Ed__46_t81B5C3A4658CEF175ED7299F83BA0CF933B98D81 * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -24819,25 +24819,25 @@ IL_0083:
 		return (bool)0;
 	}
 }
-// System.Object CauldronController/<TakeScreenshot>d__45::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * U3CTakeScreenshotU3Ed__45_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mCB1C98E2505402052CC7E54A615D4678C9CB2E03 (U3CTakeScreenshotU3Ed__45_tF0F68BA95E03AEB346ECCAEB176F8595FA93D0B4 * __this, const RuntimeMethod* method)
+// System.Object CauldronController/<TakeScreenshot>d__46::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * U3CTakeScreenshotU3Ed__46_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m587FEFF8C65E178B2FC76DF36259F318885898BF (U3CTakeScreenshotU3Ed__46_t81B5C3A4658CEF175ED7299F83BA0CF933B98D81 * __this, const RuntimeMethod* method)
 {
 	{
 		RuntimeObject * L_0 = __this->get_U3CU3E2__current_1();
 		return L_0;
 	}
 }
-// System.Void CauldronController/<TakeScreenshot>d__45::System.Collections.IEnumerator.Reset()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTakeScreenshotU3Ed__45_System_Collections_IEnumerator_Reset_m632D1314AE6CDB0EDDDBE0815FAEABE79243A1F0 (U3CTakeScreenshotU3Ed__45_tF0F68BA95E03AEB346ECCAEB176F8595FA93D0B4 * __this, const RuntimeMethod* method)
+// System.Void CauldronController/<TakeScreenshot>d__46::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTakeScreenshotU3Ed__46_System_Collections_IEnumerator_Reset_mD5DBF8E0EC2B06925D63781404224C5AF9B1C645 (U3CTakeScreenshotU3Ed__46_t81B5C3A4658CEF175ED7299F83BA0CF933B98D81 * __this, const RuntimeMethod* method)
 {
 	{
 		NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339 * L_0 = (NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339_il2cpp_TypeInfo_var)));
 		NotSupportedException__ctor_m3EA81A5B209A87C3ADA47443F2AFFF735E5256EE(L_0, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CTakeScreenshotU3Ed__45_System_Collections_IEnumerator_Reset_m632D1314AE6CDB0EDDDBE0815FAEABE79243A1F0_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CTakeScreenshotU3Ed__46_System_Collections_IEnumerator_Reset_mD5DBF8E0EC2B06925D63781404224C5AF9B1C645_RuntimeMethod_var)));
 	}
 }
-// System.Object CauldronController/<TakeScreenshot>d__45::System.Collections.IEnumerator.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * U3CTakeScreenshotU3Ed__45_System_Collections_IEnumerator_get_Current_m44E39FA65D532D8BA8EEC5762EB007BFB3B26B2B (U3CTakeScreenshotU3Ed__45_tF0F68BA95E03AEB346ECCAEB176F8595FA93D0B4 * __this, const RuntimeMethod* method)
+// System.Object CauldronController/<TakeScreenshot>d__46::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * U3CTakeScreenshotU3Ed__46_System_Collections_IEnumerator_get_Current_mB72A97BBA4392587312F20267DF417EB692E6FF1 (U3CTakeScreenshotU3Ed__46_t81B5C3A4658CEF175ED7299F83BA0CF933B98D81 * __this, const RuntimeMethod* method)
 {
 	{
 		RuntimeObject * L_0 = __this->get_U3CU3E2__current_1();

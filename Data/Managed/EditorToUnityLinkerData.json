@@ -446,6 +446,13 @@
         {
             "managedAssemblyName": "Unity.Postprocessing.Runtime.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.Rendering.PostProcessing.PostProcessLayer",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.Postprocessing.Runtime.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.Rendering.PostProcessing.PostProcessResources",
             "moduleName": "",
             "usedInScenes": []
