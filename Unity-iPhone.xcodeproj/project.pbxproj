@@ -63,7 +63,7 @@
 		24084401937DCF653DEB5673 /* Il2CppGenericComDefinitions35.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77B541D894DC5EB46EB631AA /* Il2CppGenericComDefinitions35.cpp */; };
 		24114A3089FFFD2002A7EF01 /* Generics10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7AA64D12BAA697BA5189993E /* Generics10.cpp */; };
 		24B1495A8709E23BBB893942 /* Generics16.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0F344298AEEC02936DC7062 /* Generics16.cpp */; };
-		25234BD7B12FADCAD7A6336C /* NativeCallProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = B378423E99A71DA2C27B6E51 /* NativeCallProxy.h */; };
+		25234BD7B12FADCAD7A6336C /* NativeCallProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = B378423E99A71DA2C27B6E51 /* NativeCallProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25A740A3A9177E15D9332BC3 /* Unity.Mathematics_Attr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12D2446B9BEC158FC28E63B6 /* Unity.Mathematics_Attr.cpp */; };
 		269B48CBAC73995D4423DABB /* UnityEngine.CoreModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40694E3A95B528874A1BAF41 /* UnityEngine.CoreModule.cpp */; };
 		27114AC5A6CFF404AA8CE70D /* Il2CppGenericComDefinitions30.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BF7466A920F807A6521F7B1 /* Il2CppGenericComDefinitions30.cpp */; };
@@ -127,7 +127,7 @@
 		55404FEAAF01CDFA9F85870C /* System.Xml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 281349F290AC537687C8C257 /* System.Xml.cpp */; };
 		5623C57617FDCB0800090B9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		5623C57717FDCB0800090B9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830B5C100E5ED4C100C7819F /* UIKit.framework */; };
-		5623C57D17FDCB0900090B9E = {isa = PBXBuildFile; fileRef = 5623C57B17FDCB0900090B9E /* InfoPlist.strings */; };
+		5623C57D17FDCB0900090B9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5623C57B17FDCB0900090B9E /* InfoPlist.strings */; };
 		5623C57F17FDCB0900090B9E /* Unity_iPhone_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5623C57E17FDCB0900090B9E /* Unity_iPhone_Tests.m */; };
 		569C4ACDBB2F32B385C7985F /* Il2CppInvokerTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E534DD29695551F5CB3EE08 /* Il2CppInvokerTable.cpp */; };
 		56C56C9817D6015200616839 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56C56C9717D6015100616839 /* Images.xcassets */; };
@@ -373,6 +373,7 @@
 		D5B44E5D8DED6263F121431E /* Unity.TextMeshPro3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD0478EAD5467006DE83A98 /* Unity.TextMeshPro3.cpp */; };
 		D63B4327A786D8E9D577420D /* UnityEngine.TilemapModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 582E4D339966F6B68A1C499E /* UnityEngine.TilemapModule.cpp */; };
 		D6B54A0B9AFE11C85FD5AD62 /* UnityEngine.AnimationModule_Attr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6934CBC96DC5BCAF99B98BD /* UnityEngine.AnimationModule_Attr.cpp */; };
+		D6D1F801271FB9CF0071C8BD /* Data in Resources */ = {isa = PBXBuildFile; fileRef = AA31BF961B55660D0013FB1B /* Data */; };
 		D9814C5296E44AC298E8B348 /* System.Core_Attr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DE442FEB91CA07341059BC1 /* System.Core_Attr.cpp */; };
 		DA4248039FB203ED19587AEB /* System2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EDD7436895041FE6FDD57B77 /* System2.cpp */; };
 		DA6E450D9714B46FAFF68C1D /* Unity.XR.ARFoundation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0CA4001B21D70D19316E307 /* Unity.XR.ARFoundation.cpp */; };
@@ -497,7 +498,7 @@
 		1C604CAE9A6A290C040D7572 /* Il2CppGenericComDefinitions13.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppGenericComDefinitions13.cpp; path = Classes/Native/Il2CppGenericComDefinitions13.cpp; sourceTree = SOURCE_ROOT; };
 		1D2346DFB643EE10A07D6D14 /* Unity.Postprocessing.Runtime2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Unity.Postprocessing.Runtime2.cpp; path = Classes/Native/Unity.Postprocessing.Runtime2.cpp; sourceTree = SOURCE_ROOT; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D6058910D05DD3D006BFB54 /* Unity-Target-New.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unity-Target-New.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* Unity-Target-New.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Unity-Target-New.app"; path = LushLabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DBC4C59AC7EBB2782B77003 /* UnityEngine.IMGUIModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.IMGUIModule.cpp; path = Classes/Native/UnityEngine.IMGUIModule.cpp; sourceTree = SOURCE_ROOT; };
 		1DDE47619E6D025FE4248510 /* Unity.XR.Management_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Unity.XR.Management_CodeGen.c; path = Classes/Native/Unity.XR.Management_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		1E4B4E61BA29A63AA5351C6C /* UnityEngine.SharedInternalsModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.SharedInternalsModule.cpp; path = Classes/Native/UnityEngine.SharedInternalsModule.cpp; sourceTree = SOURCE_ROOT; };
@@ -1654,6 +1655,7 @@
 			attributes = {
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = DJ6N7G9BBD;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.GameControllers.appletvos = {
@@ -1662,6 +1664,7 @@
 						};
 					};
 					5623C57217FDCB0800090B9E = {
+						DevelopmentTeam = DJ6N7G9BBD;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 1D6058900D05DD3D006BFB54;
 					};
@@ -1712,7 +1715,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5623C57D17FDCB0900090B9E,
+				5623C57D17FDCB0900090B9E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1720,6 +1723,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6D1F801271FB9CF0071C8BD /* Data in Resources */,
 				0BA24FB09449D2C2247A25F8 /* profile.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
