@@ -1439,106 +1439,106 @@ extern void AppController_CallLushCam_m007C2DDB9A08167C4404D1E83D0CC5C236C31206 
 extern void AppController_CallSnowFairy_m8747C40FDE56F47800CFC7C9ACE059786CEF1234 (void);
 // 0x000002C9 System.Void AppController::CallRouteScene()
 extern void AppController_CallRouteScene_m4AA282ACCE695B98CFCD30D6CDD9438A33A1DFAF (void);
-// 0x000002CA System.Void AppController::PauseGame()
-extern void AppController_PauseGame_m7C2F0442EB1D321ACCA312B6DEE80C5D8A1FF50E (void);
-// 0x000002CB System.Void AppController::ResumeGame()
-extern void AppController_ResumeGame_m8329EC1DC7306689ADE6E8FCD3D475E4A1C44BE7 (void);
-// 0x000002CC System.Void AppController::.ctor()
+// 0x000002CA System.Void AppController::.ctor()
 extern void AppController__ctor_m2130E861A6F28C943C0C77E105BC1471D28C81E0 (void);
-// 0x000002CD System.Void AppController/<>c__DisplayClass13_0::.ctor()
+// 0x000002CB System.Void AppController/<>c__DisplayClass13_0::.ctor()
 extern void U3CU3Ec__DisplayClass13_0__ctor_mFF4503056E5B71ADF3F35EF5CDB3CE619B417085 (void);
-// 0x000002CE System.Void AppController/<>c__DisplayClass13_0::<LoadScene>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance>)
+// 0x000002CC System.Void AppController/<>c__DisplayClass13_0::<LoadScene>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance>)
 extern void U3CU3Ec__DisplayClass13_0_U3CLoadSceneU3Eb__0_m3BAB5A48F3184E528C6DC3D43DFC01AC71D55146 (void);
-// 0x000002CF System.Void AppController/<>c::.cctor()
+// 0x000002CD System.Void AppController/<>c::.cctor()
 extern void U3CU3Ec__cctor_m4F3B2BF7B0EACF75D19179EA6DE973453A5120EB (void);
-// 0x000002D0 System.Void AppController/<>c::.ctor()
+// 0x000002CE System.Void AppController/<>c::.ctor()
 extern void U3CU3Ec__ctor_mD32B584A634CC6820E6A0C3A80A4EB3897DAED26 (void);
-// 0x000002D1 System.Void AppController/<>c::<CallRouteScene>b__18_0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance>)
+// 0x000002CF System.Void AppController/<>c::<CallRouteScene>b__18_0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance>)
 extern void U3CU3Ec_U3CCallRouteSceneU3Eb__18_0_m7D6D3D66D4D9A6C5814B8AFD647AA101ADFA7399 (void);
-// 0x000002D2 System.Void ExitScene::Start()
+// 0x000002D0 System.Void ExitScene::Start()
 extern void ExitScene_Start_m9D677B12E81E135C8A185AB7929BECE9C7BFC250 (void);
-// 0x000002D3 System.Void ExitScene::Unload()
+// 0x000002D1 System.Void ExitScene::Unload()
 extern void ExitScene_Unload_m7B5BEB2DF198FCAC0FAFB16D523511E991CE7A93 (void);
-// 0x000002D4 System.Void ExitScene::.ctor()
+// 0x000002D2 System.Void ExitScene::.ctor()
 extern void ExitScene__ctor_m4589197B92DF7452906A9AFC1CA083507E616618 (void);
-// 0x000002D5 System.Void CameraZoomState::OnStateUpdate(UnityEngine.Animator,UnityEngine.AnimatorStateInfo,System.Int32)
+// 0x000002D3 System.Void CameraZoomState::OnStateUpdate(UnityEngine.Animator,UnityEngine.AnimatorStateInfo,System.Int32)
 extern void CameraZoomState_OnStateUpdate_m0EF96754CE0C4F19079CA49DB5CA27CBD8A25515 (void);
-// 0x000002D6 System.Void CameraZoomState::.ctor()
+// 0x000002D4 System.Void CameraZoomState::.ctor()
 extern void CameraZoomState__ctor_m6E21E9696C4C298AB00DFDDC31A74544EE7B943D (void);
-// 0x000002D7 System.Boolean CauldronController::DetermineIfFaceTrackingSupported()
+// 0x000002D5 System.Boolean CauldronController::DetermineIfFaceTrackingSupported()
 extern void CauldronController_DetermineIfFaceTrackingSupported_m05E80B56E4078B5E07A27DCD1CDD9029C9484EF6 (void);
-// 0x000002D8 System.Void CauldronController::InitializeCamera()
+// 0x000002D6 System.Void CauldronController::InitializeCamera()
 extern void CauldronController_InitializeCamera_mE6061B9AF64040AD2247215960EC002B8EFB5025 (void);
-// 0x000002D9 System.Void CauldronController::Rotate()
+// 0x000002D7 System.Void CauldronController::Rotate()
 extern void CauldronController_Rotate_m319EEFBC700DB2B7C86858EC36D80264485AF767 (void);
-// 0x000002DA System.Void CauldronController::ScaleX()
+// 0x000002D8 System.Void CauldronController::ScaleX()
 extern void CauldronController_ScaleX_mA50AD65FF3F1E5E275B74EDD7F4648665B9D4E2A (void);
-// 0x000002DB System.Void CauldronController::ScaleY()
+// 0x000002D9 System.Void CauldronController::ScaleY()
 extern void CauldronController_ScaleY_m5D6D522DB3E261C3FF4399E008EE509A2103FBFD (void);
-// 0x000002DC System.Void CauldronController::ScaleZ()
+// 0x000002DA System.Void CauldronController::ScaleZ()
 extern void CauldronController_ScaleZ_m51EDA6522D751EB1F5A5CACA9EF3A9D3B783DEF7 (void);
-// 0x000002DD System.Void CauldronController::HideTopBar()
+// 0x000002DB System.Void CauldronController::HideTopBar()
 extern void CauldronController_HideTopBar_m2862BEF1985FABC7BC6800146A19707705A76C8A (void);
-// 0x000002DE System.Void CauldronController::ShowTopBar()
+// 0x000002DC System.Void CauldronController::ShowTopBar()
 extern void CauldronController_ShowTopBar_mB38CC99140746EA71E0FF32BC3C02C3430D6481C (void);
-// 0x000002DF System.Void CauldronController::WatchSnowFairy()
+// 0x000002DD System.Void CauldronController::WatchSnowFairy()
 extern void CauldronController_WatchSnowFairy_mB4828C526F683B2FC62F748EAC6EC3FEDBD63EB4 (void);
-// 0x000002E0 System.Void CauldronController::Record()
+// 0x000002DE System.Void CauldronController::Record()
 extern void CauldronController_Record_mEF2D50A6F4EFD73533E3D7BBD27758A8B6CEB971 (void);
-// 0x000002E1 System.Void CauldronController::Share()
+// 0x000002DF System.Void CauldronController::Share()
 extern void CauldronController_Share_m3F8FCE764E6FF86BE0FB637620BDE4B75CACBF32 (void);
-// 0x000002E2 System.Void CauldronController::Restart()
+// 0x000002E0 System.Void CauldronController::Restart()
 extern void CauldronController_Restart_m6ABDC21CEA37870B1616D062B368EBA05DDD2862 (void);
-// 0x000002E3 System.Void CauldronController::OnPanelChanged()
+// 0x000002E1 System.Void CauldronController::OnPanelChanged()
 extern void CauldronController_OnPanelChanged_mD6B0A3F6C33D1957BB8C5F05CF92DA8B86D583D9 (void);
-// 0x000002E4 System.String CauldronController::GetChoiceTitle(CauldronController/CauldronChoice)
+// 0x000002E2 System.String CauldronController::GetChoiceTitle(CauldronController/CauldronChoice)
 extern void CauldronController_GetChoiceTitle_m8727E590A4471023504F6B87894F185269439AD9 (void);
-// 0x000002E5 System.String CauldronController::GetChoiceDescription(CauldronController/CauldronChoice)
+// 0x000002E3 System.String CauldronController::GetChoiceDescription(CauldronController/CauldronChoice)
 extern void CauldronController_GetChoiceDescription_m478D1BB81CD6649D9EE5D8406973D1F1B3E8A9C4 (void);
-// 0x000002E6 UnityEngine.Color CauldronController::GetChoiceOcclusionColor(CauldronController/CauldronChoice)
+// 0x000002E4 UnityEngine.Color CauldronController::GetChoiceOcclusionColor(CauldronController/CauldronChoice)
 extern void CauldronController_GetChoiceOcclusionColor_mA488F95D074646F6F293D0114523A2595F16ECAA (void);
-// 0x000002E7 UnityEngine.Color CauldronController::GetChoiceLayer1Color(CauldronController/CauldronChoice)
+// 0x000002E5 UnityEngine.Color CauldronController::GetChoiceLayer1Color(CauldronController/CauldronChoice)
 extern void CauldronController_GetChoiceLayer1Color_mDD607F803711ECF9FDE38F0A0CDB4FB36C4A0A9D (void);
-// 0x000002E8 UnityEngine.Color CauldronController::GetChoiceLayer2Color(CauldronController/CauldronChoice)
+// 0x000002E6 UnityEngine.Color CauldronController::GetChoiceLayer2Color(CauldronController/CauldronChoice)
 extern void CauldronController_GetChoiceLayer2Color_mF44A8ECE655325C852DA036EC3824C3E54213D65 (void);
-// 0x000002E9 UnityEngine.Color CauldronController::GetChoiceLayer3Color(CauldronController/CauldronChoice)
+// 0x000002E7 UnityEngine.Color CauldronController::GetChoiceLayer3Color(CauldronController/CauldronChoice)
 extern void CauldronController_GetChoiceLayer3Color_mBF26758D7C175E6F045A02F92471E8730A1467B6 (void);
-// 0x000002EA UnityEngine.Texture2D CauldronController::GetChoiceFlower(CauldronController/CauldronChoice)
+// 0x000002E8 UnityEngine.Texture2D CauldronController::GetChoiceFlower(CauldronController/CauldronChoice)
 extern void CauldronController_GetChoiceFlower_m443B7F5A49A55B3510B62851DB1CD5302CF9B649 (void);
-// 0x000002EB System.String CauldronController::GetPhrase(CauldronController/CauldronChoice)
+// 0x000002E9 System.String CauldronController::GetPhrase(CauldronController/CauldronChoice)
 extern void CauldronController_GetPhrase_m3568ED24706029395225546EB9719AE5DAFB82BA (void);
-// 0x000002EC CauldronController/CauldronChoice CauldronController::get_CurrentCauldronChoice()
+// 0x000002EA CauldronController/CauldronChoice CauldronController::get_CurrentCauldronChoice()
 extern void CauldronController_get_CurrentCauldronChoice_m16CA7506AE0A4A6643066AD7029DD33FC83B6682 (void);
-// 0x000002ED System.Void CauldronController::set_CurrentCauldronChoice(CauldronController/CauldronChoice)
+// 0x000002EB System.Void CauldronController::set_CurrentCauldronChoice(CauldronController/CauldronChoice)
 extern void CauldronController_set_CurrentCauldronChoice_mD9E3494A6461EB1CB4BBADA7391910A84A2D1530 (void);
-// 0x000002EE System.Void CauldronController::Choose(System.Int32)
+// 0x000002EC System.Void CauldronController::Choose(System.Int32)
 extern void CauldronController_Choose_m7C753B15C99D41CCDBC1AEE7BCFBD4A57E5FE6C6 (void);
-// 0x000002EF System.Void CauldronController::StartMirror()
+// 0x000002ED System.Void CauldronController::StartMirror()
 extern void CauldronController_StartMirror_mF03478E30DDDB730A09A2682C9B43A627637F910 (void);
-// 0x000002F0 System.Void CauldronController::ScreenshotButtonClicked()
+// 0x000002EE System.Void CauldronController::ScreenshotButtonClicked()
 extern void CauldronController_ScreenshotButtonClicked_mD9CE26E4982DFC66ED662739099B5C94D436E247 (void);
-// 0x000002F1 System.Collections.IEnumerator CauldronController::TakeScreenshot()
+// 0x000002EF System.Collections.IEnumerator CauldronController::TakeScreenshot()
 extern void CauldronController_TakeScreenshot_m238ED55DF1F632F25662BAAEE11BD880C10C1946 (void);
-// 0x000002F2 System.Void CauldronController::OnDownloadVideo(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.Video.VideoClip>)
+// 0x000002F0 System.Void CauldronController::OnDownloadVideo(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.Video.VideoClip>)
 extern void CauldronController_OnDownloadVideo_m8D65BE48AF259D30820E8D9A0510D6E2BA7D60FA (void);
-// 0x000002F3 CauldronController/CauldronState CauldronController::get_CurrentState()
+// 0x000002F1 CauldronController/CauldronState CauldronController::get_CurrentState()
 extern void CauldronController_get_CurrentState_m56E96412133C0DB0EA189E17AF33DCDB9CAE614D (void);
-// 0x000002F4 System.Void CauldronController::set_CurrentState(CauldronController/CauldronState)
+// 0x000002F2 System.Void CauldronController::set_CurrentState(CauldronController/CauldronState)
 extern void CauldronController_set_CurrentState_mFD1FD756F211E5CD2594688B67E34CED820AA03A (void);
-// 0x000002F5 System.Void CauldronController::VideoPlayer_loopPointReached(UnityEngine.Video.VideoPlayer)
+// 0x000002F3 System.Void CauldronController::VideoPlayer_loopPointReached(UnityEngine.Video.VideoPlayer)
 extern void CauldronController_VideoPlayer_loopPointReached_m1F08F66F8689576FE7779C2C276CD60973A5AA7A (void);
-// 0x000002F6 System.Void CauldronController::InitializeFluid()
+// 0x000002F4 System.Void CauldronController::InitializeFluid()
 extern void CauldronController_InitializeFluid_mF8B54DC640AB0A02F3FBA0581127910036383A50 (void);
-// 0x000002F7 System.Collections.IEnumerator CauldronController::Start()
+// 0x000002F5 System.Collections.IEnumerator CauldronController::Start()
 extern void CauldronController_Start_mFAF93365536535F296859497C64D2796F167DED5 (void);
-// 0x000002F8 System.Void CauldronController::StartExperience()
+// 0x000002F6 System.Void CauldronController::StartExperience()
 extern void CauldronController_StartExperience_mD65EDA4424F125191A0CE5AC10FCE07FDFFA9E74 (void);
-// 0x000002F9 System.Void CauldronController::UpdateCanvas(UnityEngine.CanvasGroup,System.Boolean,System.Single)
+// 0x000002F7 System.Void CauldronController::UpdateCanvas(UnityEngine.CanvasGroup,System.Boolean,System.Single)
 extern void CauldronController_UpdateCanvas_mEF24002989A83DC801BC3CA038B1F98F0CD4EA82 (void);
-// 0x000002FA System.Void CauldronController::Update()
+// 0x000002F8 System.Void CauldronController::Update()
 extern void CauldronController_Update_m85FD6D12538865BB7FA873FD265D9478E8A85CAF (void);
-// 0x000002FB System.Void CauldronController::OnDestroy()
+// 0x000002F9 System.Void CauldronController::OnDestroy()
 extern void CauldronController_OnDestroy_mD3B392B1FB70CD39B82AF4CEBDD88E6E424D761A (void);
+// 0x000002FA System.Void CauldronController::PauseGame(System.String)
+extern void CauldronController_PauseGame_m623F27513CB8AD51EB73D60BD31D0759C54B1BF3 (void);
+// 0x000002FB System.Void CauldronController::ResumeGame(System.String)
+extern void CauldronController_ResumeGame_mA25C05D2A5A883075BFFCC5C065557CD7CDD80C4 (void);
 // 0x000002FC System.Void CauldronController::.ctor()
 extern void CauldronController__ctor_m27A211D42A8F743CA8FCC371699592FF1C9F54BC (void);
 // 0x000002FD System.Void CauldronController::<InitializeFluid>b__90_0(UnityEngine.Vector2)
@@ -3999,8 +3999,6 @@ static Il2CppMethodPointer s_methodPointers[1678] =
 	AppController_CallLushCam_m007C2DDB9A08167C4404D1E83D0CC5C236C31206,
 	AppController_CallSnowFairy_m8747C40FDE56F47800CFC7C9ACE059786CEF1234,
 	AppController_CallRouteScene_m4AA282ACCE695B98CFCD30D6CDD9438A33A1DFAF,
-	AppController_PauseGame_m7C2F0442EB1D321ACCA312B6DEE80C5D8A1FF50E,
-	AppController_ResumeGame_m8329EC1DC7306689ADE6E8FCD3D475E4A1C44BE7,
 	AppController__ctor_m2130E861A6F28C943C0C77E105BC1471D28C81E0,
 	U3CU3Ec__DisplayClass13_0__ctor_mFF4503056E5B71ADF3F35EF5CDB3CE619B417085,
 	U3CU3Ec__DisplayClass13_0_U3CLoadSceneU3Eb__0_m3BAB5A48F3184E528C6DC3D43DFC01AC71D55146,
@@ -4049,6 +4047,8 @@ static Il2CppMethodPointer s_methodPointers[1678] =
 	CauldronController_UpdateCanvas_mEF24002989A83DC801BC3CA038B1F98F0CD4EA82,
 	CauldronController_Update_m85FD6D12538865BB7FA873FD265D9478E8A85CAF,
 	CauldronController_OnDestroy_mD3B392B1FB70CD39B82AF4CEBDD88E6E424D761A,
+	CauldronController_PauseGame_m623F27513CB8AD51EB73D60BD31D0759C54B1BF3,
+	CauldronController_ResumeGame_mA25C05D2A5A883075BFFCC5C065557CD7CDD80C4,
 	CauldronController__ctor_m27A211D42A8F743CA8FCC371699592FF1C9F54BC,
 	CauldronController_U3CInitializeFluidU3Eb__90_0_m8EBDB902935BC28FBCB25044BF484D57B22770FA,
 	CauldronChoiceParameter__ctor_m5C056E1DB69CB187AB9659258A0390A09DF25FAF,
@@ -5749,8 +5749,6 @@ static const int32_t s_InvokerIndices[1678] =
 	3805,
 	3805,
 	3805,
-	3805,
-	3805,
 	2877,
 	5814,
 	3805,
@@ -5797,6 +5795,8 @@ static const int32_t s_InvokerIndices[1678] =
 	1095,
 	3805,
 	3805,
+	3098,
+	3098,
 	3805,
 	3163,
 	3805,

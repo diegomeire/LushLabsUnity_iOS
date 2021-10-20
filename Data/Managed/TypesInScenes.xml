@@ -43,7 +43,6 @@
 		<type fullname="ExitScene" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.Postprocessing.Runtime">
-		<type fullname="UnityEngine.Rendering.PostProcessing.PostProcessLayer" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.PostProcessing.PostProcessResources" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.RenderPipelines.Core.Runtime">
