@@ -35761,9 +35761,9 @@ IL_005e:
 		}
 	}
 	{
-		// webCamTexture = new WebCamTexture(300, 300, 15);
+		// webCamTexture = new WebCamTexture(600, 600, 15);
 		WebCamTexture_t8E1DA1358E0E093A75FF35A336DD81B9EEC7AA62 * L_13 = (WebCamTexture_t8E1DA1358E0E093A75FF35A336DD81B9EEC7AA62 *)il2cpp_codegen_object_new(WebCamTexture_t8E1DA1358E0E093A75FF35A336DD81B9EEC7AA62_il2cpp_TypeInfo_var);
-		WebCamTexture__ctor_mB4EB6EAA0F0BA51E5F0D84FB9A60577315E351DB(L_13, ((int32_t)300), ((int32_t)300), ((int32_t)15), /*hidden argument*/NULL);
+		WebCamTexture__ctor_mB4EB6EAA0F0BA51E5F0D84FB9A60577315E351DB(L_13, ((int32_t)600), ((int32_t)600), ((int32_t)15), /*hidden argument*/NULL);
 		__this->set_webCamTexture_7(L_13);
 		// if (cameraName == "")
 		String_t* L_14 = V_0;
