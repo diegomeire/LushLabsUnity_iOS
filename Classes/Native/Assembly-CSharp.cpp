@@ -37763,30 +37763,26 @@ IL_04a7:
 		int32_t L_96 = __this->get__currentState_49();
 		if ((!(((uint32_t)L_96) == ((uint32_t)4))))
 		{
-			goto IL_0603;
+			goto IL_05f3;
 		}
 	}
 	{
-		// fluidBehaviourScript.VELOCITY_DISSIPATION = 0.98f;
+		// fluidBehaviourScript.VELOCITY_DISSIPATION = 1;// 0.98f;
 		FluidBehaviourScript_t2EBA6B98445FF5154C8634348A5381177AD03159 * L_97 = __this->get_fluidBehaviourScript_54();
 		NullCheck(L_97);
-		L_97->set_VELOCITY_DISSIPATION_15((0.980000019f));
+		L_97->set_VELOCITY_DISSIPATION_15((1.0f));
 		// fluidBehaviourScript.DENSITY_DISSIPATION = 0.98f;
 		FluidBehaviourScript_t2EBA6B98445FF5154C8634348A5381177AD03159 * L_98 = __this->get_fluidBehaviourScript_54();
 		NullCheck(L_98);
 		L_98->set_DENSITY_DISSIPATION_16((0.980000019f));
-		// fluidBehaviourScript.splat_radius = 0.1f;
-		FluidBehaviourScript_t2EBA6B98445FF5154C8634348A5381177AD03159 * L_99 = __this->get_fluidBehaviourScript_54();
-		NullCheck(L_99);
-		L_99->set_splat_radius_8((0.100000001f));
 		// videoPlayer.enabled = false;
-		VideoPlayer_t47DCC396CBA28512CF97C6CC4F55878E8D62FE86 * L_100 = __this->get_videoPlayer_18();
-		NullCheck(L_100);
-		Behaviour_set_enabled_mDE415591B28853D1CD764C53CB499A2142247F32(L_100, (bool)0, /*hidden argument*/NULL);
+		VideoPlayer_t47DCC396CBA28512CF97C6CC4F55878E8D62FE86 * L_99 = __this->get_videoPlayer_18();
+		NullCheck(L_99);
+		Behaviour_set_enabled_mDE415591B28853D1CD764C53CB499A2142247F32(L_99, (bool)0, /*hidden argument*/NULL);
 		// CauldronBorderCanvas.alpha = 0;
-		CanvasGroup_t6912220105AB4A288A2FD882D163D7218EAA577F * L_101 = __this->get_CauldronBorderCanvas_45();
-		NullCheck(L_101);
-		CanvasGroup_set_alpha_m522B58BDF64D87252B0D43D254FF3A4D5993DC53(L_101, (0.0f), /*hidden argument*/NULL);
+		CanvasGroup_t6912220105AB4A288A2FD882D163D7218EAA577F * L_100 = __this->get_CauldronBorderCanvas_45();
+		NullCheck(L_100);
+		CanvasGroup_set_alpha_m522B58BDF64D87252B0D43D254FF3A4D5993DC53(L_100, (0.0f), /*hidden argument*/NULL);
 		// showIdle = false;
 		__this->set_showIdle_30((bool)0);
 		// showVideo = false;
@@ -37806,94 +37802,94 @@ IL_04a7:
 		// showFace = true;
 		__this->set_showFace_37((bool)1);
 		// if (faceObject) faceObject.gameObject.SetActive(true);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_102 = __this->get_faceObject_21();
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_101 = __this->get_faceObject_21();
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
-		bool L_103;
-		L_103 = Object_op_Implicit_mC8214E4F028CC2F036CC82BDB81D102A02893499(L_102, /*hidden argument*/NULL);
-		if (!L_103)
+		bool L_102;
+		L_102 = Object_op_Implicit_mC8214E4F028CC2F036CC82BDB81D102A02893499(L_101, /*hidden argument*/NULL);
+		if (!L_102)
 		{
-			goto IL_055c;
+			goto IL_054c;
 		}
 	}
 	{
 		// if (faceObject) faceObject.gameObject.SetActive(true);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_104 = __this->get_faceObject_21();
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_103 = __this->get_faceObject_21();
+		NullCheck(L_103);
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_104;
+		L_104 = GameObject_get_gameObject_mD5FFECF7C3AC5039E847DF7A8842478539B701D6(L_103, /*hidden argument*/NULL);
 		NullCheck(L_104);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_105;
-		L_105 = GameObject_get_gameObject_mD5FFECF7C3AC5039E847DF7A8842478539B701D6(L_104, /*hidden argument*/NULL);
-		NullCheck(L_105);
-		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_105, (bool)1, /*hidden argument*/NULL);
+		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_104, (bool)1, /*hidden argument*/NULL);
 	}
 
-IL_055c:
+IL_054c:
 	{
 		// textMessage.text = GetPhrase(CurrentCauldronChoice);
-		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_106 = __this->get_textMessage_29();
-		int32_t L_107;
-		L_107 = CauldronController_get_CurrentCauldronChoice_m16CA7506AE0A4A6643066AD7029DD33FC83B6682_inline(__this, /*hidden argument*/NULL);
-		String_t* L_108;
-		L_108 = CauldronController_GetPhrase_m3568ED24706029395225546EB9719AE5DAFB82BA(__this, L_107, /*hidden argument*/NULL);
-		NullCheck(L_106);
-		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_106, L_108);
+		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_105 = __this->get_textMessage_29();
+		int32_t L_106;
+		L_106 = CauldronController_get_CurrentCauldronChoice_m16CA7506AE0A4A6643066AD7029DD33FC83B6682_inline(__this, /*hidden argument*/NULL);
+		String_t* L_107;
+		L_107 = CauldronController_GetPhrase_m3568ED24706029395225546EB9719AE5DAFB82BA(__this, L_106, /*hidden argument*/NULL);
+		NullCheck(L_105);
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_105, L_107);
 		// textMessage.gameObject.SetActive(true);
-		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_109 = __this->get_textMessage_29();
+		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_108 = __this->get_textMessage_29();
+		NullCheck(L_108);
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_109;
+		L_109 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(L_108, /*hidden argument*/NULL);
 		NullCheck(L_109);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_110;
-		L_110 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(L_109, /*hidden argument*/NULL);
-		NullCheck(L_110);
-		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_110, (bool)1, /*hidden argument*/NULL);
+		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_109, (bool)1, /*hidden argument*/NULL);
 		// textMessage.color = new Color(textMessage.color.r, textMessage.color.g, textMessage.color.b, 0.0f);
+		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_110 = __this->get_textMessage_29();
 		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_111 = __this->get_textMessage_29();
-		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_112 = __this->get_textMessage_29();
-		NullCheck(L_112);
-		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_113;
-		L_113 = VirtFuncInvoker0< Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  >::Invoke(22 /* UnityEngine.Color UnityEngine.UI.Graphic::get_color() */, L_112);
-		float L_114 = L_113.get_r_0();
-		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_115 = __this->get_textMessage_29();
-		NullCheck(L_115);
-		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_116;
-		L_116 = VirtFuncInvoker0< Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  >::Invoke(22 /* UnityEngine.Color UnityEngine.UI.Graphic::get_color() */, L_115);
-		float L_117 = L_116.get_g_1();
-		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_118 = __this->get_textMessage_29();
-		NullCheck(L_118);
-		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_119;
-		L_119 = VirtFuncInvoker0< Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  >::Invoke(22 /* UnityEngine.Color UnityEngine.UI.Graphic::get_color() */, L_118);
-		float L_120 = L_119.get_b_2();
-		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_121;
-		memset((&L_121), 0, sizeof(L_121));
-		Color__ctor_m679019E6084BF7A6F82590F66F5F695F6A50ECC5((&L_121), L_114, L_117, L_120, (0.0f), /*hidden argument*/NULL);
 		NullCheck(L_111);
-		VirtActionInvoker1< Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_111, L_121);
+		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_112;
+		L_112 = VirtFuncInvoker0< Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  >::Invoke(22 /* UnityEngine.Color UnityEngine.UI.Graphic::get_color() */, L_111);
+		float L_113 = L_112.get_r_0();
+		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_114 = __this->get_textMessage_29();
+		NullCheck(L_114);
+		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_115;
+		L_115 = VirtFuncInvoker0< Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  >::Invoke(22 /* UnityEngine.Color UnityEngine.UI.Graphic::get_color() */, L_114);
+		float L_116 = L_115.get_g_1();
+		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_117 = __this->get_textMessage_29();
+		NullCheck(L_117);
+		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_118;
+		L_118 = VirtFuncInvoker0< Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  >::Invoke(22 /* UnityEngine.Color UnityEngine.UI.Graphic::get_color() */, L_117);
+		float L_119 = L_118.get_b_2();
+		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_120;
+		memset((&L_120), 0, sizeof(L_120));
+		Color__ctor_m679019E6084BF7A6F82590F66F5F695F6A50ECC5((&L_120), L_113, L_116, L_119, (0.0f), /*hidden argument*/NULL);
+		NullCheck(L_110);
+		VirtActionInvoker1< Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_110, L_120);
 		// faceObject.transform.localScale = Vector3.zero;
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_122 = __this->get_faceObject_21();
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_121 = __this->get_faceObject_21();
+		NullCheck(L_121);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_122;
+		L_122 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_121, /*hidden argument*/NULL);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_123;
+		L_123 = Vector3_get_zero_m1A8F7993167785F750B6B01762D22C2597C84EF6(/*hidden argument*/NULL);
 		NullCheck(L_122);
-		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_123;
-		L_123 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_122, /*hidden argument*/NULL);
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_124;
-		L_124 = Vector3_get_zero_m1A8F7993167785F750B6B01762D22C2597C84EF6(/*hidden argument*/NULL);
-		NullCheck(L_123);
-		Transform_set_localScale_mF4D1611E48D1BA7566A1E166DC2DACF3ADD8BA3A(L_123, L_124, /*hidden argument*/NULL);
+		Transform_set_localScale_mF4D1611E48D1BA7566A1E166DC2DACF3ADD8BA3A(L_122, L_123, /*hidden argument*/NULL);
 		// if (faceObject) faceObject.gameObject.SetActive(true);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_125 = __this->get_faceObject_21();
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_124 = __this->get_faceObject_21();
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
-		bool L_126;
-		L_126 = Object_op_Implicit_mC8214E4F028CC2F036CC82BDB81D102A02893499(L_125, /*hidden argument*/NULL);
-		if (!L_126)
+		bool L_125;
+		L_125 = Object_op_Implicit_mC8214E4F028CC2F036CC82BDB81D102A02893499(L_124, /*hidden argument*/NULL);
+		if (!L_125)
 		{
-			goto IL_05fc;
+			goto IL_05ec;
 		}
 	}
 	{
 		// if (faceObject) faceObject.gameObject.SetActive(true);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_127 = __this->get_faceObject_21();
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_126 = __this->get_faceObject_21();
+		NullCheck(L_126);
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_127;
+		L_127 = GameObject_get_gameObject_mD5FFECF7C3AC5039E847DF7A8842478539B701D6(L_126, /*hidden argument*/NULL);
 		NullCheck(L_127);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_128;
-		L_128 = GameObject_get_gameObject_mD5FFECF7C3AC5039E847DF7A8842478539B701D6(L_127, /*hidden argument*/NULL);
-		NullCheck(L_128);
-		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_128, (bool)1, /*hidden argument*/NULL);
+		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_127, (bool)1, /*hidden argument*/NULL);
 	}
 
-IL_05fc:
+IL_05ec:
 	{
 		// HideTopBar();
 		CauldronController_HideTopBar_m2862BEF1985FABC7BC6800146A19707705A76C8A(__this, /*hidden argument*/NULL);
@@ -37901,24 +37897,24 @@ IL_05fc:
 		return;
 	}
 
-IL_0603:
+IL_05f3:
 	{
 		// if (_currentState == CauldronState.Final)
-		int32_t L_129 = __this->get__currentState_49();
-		if ((!(((uint32_t)L_129) == ((uint32_t)5))))
+		int32_t L_128 = __this->get__currentState_49();
+		if ((!(((uint32_t)L_128) == ((uint32_t)5))))
 		{
-			goto IL_0695;
+			goto IL_0685;
 		}
 	}
 	{
 		// videoPlayer.enabled = false;
-		VideoPlayer_t47DCC396CBA28512CF97C6CC4F55878E8D62FE86 * L_130 = __this->get_videoPlayer_18();
-		NullCheck(L_130);
-		Behaviour_set_enabled_mDE415591B28853D1CD764C53CB499A2142247F32(L_130, (bool)0, /*hidden argument*/NULL);
+		VideoPlayer_t47DCC396CBA28512CF97C6CC4F55878E8D62FE86 * L_129 = __this->get_videoPlayer_18();
+		NullCheck(L_129);
+		Behaviour_set_enabled_mDE415591B28853D1CD764C53CB499A2142247F32(L_129, (bool)0, /*hidden argument*/NULL);
 		// CauldronBorderCanvas.alpha = 0;
-		CanvasGroup_t6912220105AB4A288A2FD882D163D7218EAA577F * L_131 = __this->get_CauldronBorderCanvas_45();
-		NullCheck(L_131);
-		CanvasGroup_set_alpha_m522B58BDF64D87252B0D43D254FF3A4D5993DC53(L_131, (0.0f), /*hidden argument*/NULL);
+		CanvasGroup_t6912220105AB4A288A2FD882D163D7218EAA577F * L_130 = __this->get_CauldronBorderCanvas_45();
+		NullCheck(L_130);
+		CanvasGroup_set_alpha_m522B58BDF64D87252B0D43D254FF3A4D5993DC53(L_130, (0.0f), /*hidden argument*/NULL);
 		// showBackground = false;
 		__this->set_showBackground_36((bool)0);
 		// showIdle = false;
@@ -37934,41 +37930,41 @@ IL_0603:
 		// showNavigation = true;
 		__this->set_showNavigation_39((bool)1);
 		// faceObject.transform.localScale = Vector3.zero;
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_132 = __this->get_faceObject_21();
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_131 = __this->get_faceObject_21();
+		NullCheck(L_131);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_132;
+		L_132 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_131, /*hidden argument*/NULL);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_133;
+		L_133 = Vector3_get_zero_m1A8F7993167785F750B6B01762D22C2597C84EF6(/*hidden argument*/NULL);
 		NullCheck(L_132);
-		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_133;
-		L_133 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_132, /*hidden argument*/NULL);
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_134;
-		L_134 = Vector3_get_zero_m1A8F7993167785F750B6B01762D22C2597C84EF6(/*hidden argument*/NULL);
-		NullCheck(L_133);
-		Transform_set_localScale_mF4D1611E48D1BA7566A1E166DC2DACF3ADD8BA3A(L_133, L_134, /*hidden argument*/NULL);
+		Transform_set_localScale_mF4D1611E48D1BA7566A1E166DC2DACF3ADD8BA3A(L_132, L_133, /*hidden argument*/NULL);
 		// if (faceObject) faceObject.gameObject.SetActive(false);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_135 = __this->get_faceObject_21();
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_134 = __this->get_faceObject_21();
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
-		bool L_136;
-		L_136 = Object_op_Implicit_mC8214E4F028CC2F036CC82BDB81D102A02893499(L_135, /*hidden argument*/NULL);
-		if (!L_136)
+		bool L_135;
+		L_135 = Object_op_Implicit_mC8214E4F028CC2F036CC82BDB81D102A02893499(L_134, /*hidden argument*/NULL);
+		if (!L_135)
 		{
-			goto IL_068f;
+			goto IL_067f;
 		}
 	}
 	{
 		// if (faceObject) faceObject.gameObject.SetActive(false);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_137 = __this->get_faceObject_21();
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_136 = __this->get_faceObject_21();
+		NullCheck(L_136);
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_137;
+		L_137 = GameObject_get_gameObject_mD5FFECF7C3AC5039E847DF7A8842478539B701D6(L_136, /*hidden argument*/NULL);
 		NullCheck(L_137);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_138;
-		L_138 = GameObject_get_gameObject_mD5FFECF7C3AC5039E847DF7A8842478539B701D6(L_137, /*hidden argument*/NULL);
-		NullCheck(L_138);
-		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_138, (bool)0, /*hidden argument*/NULL);
+		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_137, (bool)0, /*hidden argument*/NULL);
 	}
 
-IL_068f:
+IL_067f:
 	{
 		// HideTopBar();
 		CauldronController_HideTopBar_m2862BEF1985FABC7BC6800146A19707705A76C8A(__this, /*hidden argument*/NULL);
 	}
 
-IL_0695:
+IL_0685:
 	{
 		// }
 		return;
@@ -38463,10 +38459,10 @@ IL_0237:
 		}
 	}
 	{
-		// fluidBehaviourScript.VELOCITY_DISSIPATION = 0.99f;
+		// fluidBehaviourScript.VELOCITY_DISSIPATION = 1f;// 0.99f;
 		FluidBehaviourScript_t2EBA6B98445FF5154C8634348A5381177AD03159 * L_90 = __this->get_fluidBehaviourScript_54();
 		NullCheck(L_90);
-		L_90->set_VELOCITY_DISSIPATION_15((0.99000001f));
+		L_90->set_VELOCITY_DISSIPATION_15((1.0f));
 		// fluidBehaviourScript.DENSITY_DISSIPATION = 0.99f;
 		FluidBehaviourScript_t2EBA6B98445FF5154C8634348A5381177AD03159 * L_91 = __this->get_fluidBehaviourScript_54();
 		NullCheck(L_91);

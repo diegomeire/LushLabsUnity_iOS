@@ -26292,7 +26292,7 @@ IL_00a1:
 		bool L_27 = __this->get_hasCollided_5();
 		if (!L_27)
 		{
-			goto IL_015c;
+			goto IL_0141;
 		}
 	}
 	{
@@ -26316,7 +26316,7 @@ IL_00a1:
 		L_31 = Collider_get_enabled_m03B73B5C97033F939387D1785BDF2619CADAEEB0(L_30, /*hidden argument*/NULL);
 		if (L_31)
 		{
-			goto IL_00e3;
+			goto IL_00e0;
 		}
 	}
 
@@ -26329,7 +26329,7 @@ IL_00c6:
 		L_33 = Object_op_Implicit_mC8214E4F028CC2F036CC82BDB81D102A02893499(L_32, /*hidden argument*/NULL);
 		if (!L_33)
 		{
-			goto IL_015c;
+			goto IL_0141;
 		}
 	}
 	{
@@ -26340,17 +26340,17 @@ IL_00c6:
 		L_35 = Collider_get_enabled_m03B73B5C97033F939387D1785BDF2619CADAEEB0(L_34, /*hidden argument*/NULL);
 		if (!L_35)
 		{
-			goto IL_015c;
+			goto IL_0141;
 		}
 	}
 
-IL_00e3:
+IL_00e0:
 	{
 		// if ((ingredientType == FluidIngredientType.Pointer) || ((GetComponent<Rigidbody>().velocity.sqrMagnitude > .0f) && (controller.CurrentState == CauldronController.CauldronState.WaitingForUserInteraction)))
 		int32_t L_36 = __this->get_ingredientType_6();
 		if ((((int32_t)L_36) == ((int32_t)1)))
 		{
-			goto IL_0114;
+			goto IL_0111;
 		}
 	}
 	{
@@ -26364,7 +26364,7 @@ IL_00e3:
 		L_39 = Vector3_get_sqrMagnitude_mC567EE6DF411501A8FE1F23A0038862630B88249((Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E *)(&V_1), /*hidden argument*/NULL);
 		if ((!(((float)L_39) > ((float)(0.0f)))))
 		{
-			goto IL_014b;
+			goto IL_0130;
 		}
 	}
 	{
@@ -26374,49 +26374,39 @@ IL_00e3:
 		L_41 = CauldronController_get_CurrentState_m56E96412133C0DB0EA189E17AF33DCDB9CAE614D_inline(L_40, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_41) == ((uint32_t)3))))
 		{
-			goto IL_014b;
+			goto IL_0130;
 		}
 	}
 
-IL_0114:
+IL_0111:
 	{
 		// if ((ingredientType == FluidIngredientType.Pointer))
 		int32_t L_42 = __this->get_ingredientType_6();
 		if ((!(((uint32_t)L_42) == ((uint32_t)1))))
 		{
-			goto IL_0135;
+			goto IL_0130;
 		}
 	}
 	{
-		// fluidController.Splat(fluidPoint, 0.1f);
+		// fluidController.Splat(fluidPoint, 0.15f);
 		FluidBehaviourScript_t2EBA6B98445FF5154C8634348A5381177AD03159 * L_43 = __this->get_fluidController_8();
 		FluidPoint_t3F8874E8E52D382B170D950DFB9717C895591A75 * L_44 = __this->get_fluidPoint_9();
 		NullCheck(L_43);
-		FluidBehaviourScript_Splat_m43EF0EDC8354F0D811F5422CC541DA827D1FAF3B(L_43, L_44, (0.100000001f), /*hidden argument*/NULL);
-		goto IL_014b;
+		FluidBehaviourScript_Splat_m43EF0EDC8354F0D811F5422CC541DA827D1FAF3B(L_43, L_44, (0.150000006f), /*hidden argument*/NULL);
 	}
 
-IL_0135:
-	{
-		// fluidController.Splat(fluidPoint, 0.01f);
-		FluidBehaviourScript_t2EBA6B98445FF5154C8634348A5381177AD03159 * L_45 = __this->get_fluidController_8();
-		FluidPoint_t3F8874E8E52D382B170D950DFB9717C895591A75 * L_46 = __this->get_fluidPoint_9();
-		NullCheck(L_45);
-		FluidBehaviourScript_Splat_m43EF0EDC8354F0D811F5422CC541DA827D1FAF3B(L_45, L_46, (0.00999999978f), /*hidden argument*/NULL);
-	}
-
-IL_014b:
+IL_0130:
 	{
 		// OldPosition = transform.position;
-		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_47;
-		L_47 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(__this, /*hidden argument*/NULL);
-		NullCheck(L_47);
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_48;
-		L_48 = Transform_get_position_m40A8A9895568D56FFC687B57F30E8D53CB5EA341(L_47, /*hidden argument*/NULL);
-		__this->set_OldPosition_10(L_48);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_45;
+		L_45 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(__this, /*hidden argument*/NULL);
+		NullCheck(L_45);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_46;
+		L_46 = Transform_get_position_m40A8A9895568D56FFC687B57F30E8D53CB5EA341(L_45, /*hidden argument*/NULL);
+		__this->set_OldPosition_10(L_46);
 	}
 
-IL_015c:
+IL_0141:
 	{
 		// }
 		return;
