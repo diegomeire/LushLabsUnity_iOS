@@ -21,7 +21,7 @@ let package = Package(
         .target(
             name: "UnityFramework",
             dependencies: [],
-			publicHeadersPath: "include"),
+			publicHeadersPath: "Headers"),
         .testTarget(
             name: "UnityFrameworkTests",
             dependencies: ["UnityFramework"]),
